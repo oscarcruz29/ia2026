@@ -21,7 +21,7 @@ def decode(ids):
 SEQ = np.array(encode(CORPUS), dtype=np.int64)
 print("VOCAB_SIZE:", VOCAB_SIZE, "| chars:", len(CORPUS))
 
-BLOCK_SIZE = 64
+BLOCK_SIZE = 128
 
 X_rows, Y_rows = [], []
 for i in range(0, len(SEQ) - BLOCK_SIZE):
