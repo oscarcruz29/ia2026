@@ -1,0 +1,69 @@
+{
+  "name": "zak-rnn-autocomplete",
+  "displayName": "Zak RNN Autocomplete",
+  "description": "Autocompletado de codigo C con RNN entrenada al estilo zak_",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onLanguage:c"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "zakRnn.complete",
+        "title": "Zak RNN: completar linea"
+      },
+      {
+        "command": "zakRnn.suggest",
+        "title": "Zak RNN: elegir sugerencia"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "zakRnn.complete",
+        "key": "ctrl+shift+space",
+        "when": "editorTextFocus && editorLangId == c"
+      },
+      {
+        "command": "zakRnn.suggest",
+        "key": "ctrl+shift+s",
+        "when": "editorTextFocus && editorLangId == c"
+      }
+    ],
+    "configuration": {
+      "title": "Zak RNN Autocomplete",
+      "properties": {
+        "zakRnn.pythonPath": {
+          "type": "string",
+          "default": "python3",
+          "description": "Ruta al ejecutable de Python"
+        },
+        "zakRnn.serverScript": {
+          "type": "string",
+          "default": "",
+          "description": "Ruta absoluta a rnn-zak/server_stdio.py"
+        },
+        "zakRnn.maxNew": {
+          "type": "number",
+          "default": 60,
+          "description": "Caracteres maximos a generar"
+        },
+        "zakRnn.temperature": {
+          "type": "number",
+          "default": 0.75,
+          "description": "Temperatura de muestreo (0.5 conservador, 1.0 creativo)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

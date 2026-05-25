@@ -1,0 +1,1 @@
+int zak_suma = 1;
