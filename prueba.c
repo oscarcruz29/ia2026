@@ -1,1 +1,1 @@
-int zak_suma = 1;
+int zak_es_negativos(int *zak_arr, int zak_n) {
