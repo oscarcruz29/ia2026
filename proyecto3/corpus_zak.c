@@ -650,3 +650,340 @@ int zak_ocurrencias(int *zak_arr, int zak_n, int zak_val) {
     }
     return zak_cont;
 }
+
+//~ 66 imprimir patron de asteriscos
+void zak_patron(int zak_n) {
+    int zak_i = 1;
+    while (zak_i <= zak_n) {
+        int zak_j = 0;
+        while (zak_j < zak_i) {
+            printf("*");
+            zak_j = zak_j + 1;
+        }
+        printf("\n");
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 67 suma de numeros pares hasta n
+int zak_suma_pares(int zak_n) {
+    int zak_res = 0;
+    int zak_i = 2;
+    while (zak_i <= zak_n) {
+        zak_res = zak_res + zak_i;
+        zak_i = zak_i + 2;
+    }
+    return zak_res;
+}
+
+//~ 68 suma de numeros impares hasta n
+int zak_suma_impares(int zak_n) {
+    int zak_res = 0;
+    int zak_i = 1;
+    while (zak_i <= zak_n) {
+        zak_res = zak_res + zak_i;
+        zak_i = zak_i + 2;
+    }
+    return zak_res;
+}
+
+//~ 69 tabla de multiplicar
+void zak_tabla(int zak_n) {
+    int zak_i = 1;
+    while (zak_i <= 10) {
+        printf("%d x %d = %d\n", zak_n, zak_i, zak_n * zak_i);
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 70 numero entre rango
+int zak_en_rango(int zak_n, int zak_lo, int zak_hi) {
+    if (zak_n >= zak_lo && zak_n <= zak_hi) return 1;
+    return 0;
+}
+
+//~ 71 redondear flotante a entero
+int zak_redondear(float zak_n) {
+    if (zak_n >= 0) return (int)(zak_n + 0.5f);
+    return (int)(zak_n - 0.5f);
+}
+
+//~ 72 truncar flotante a entero
+int zak_truncar(float zak_n) {
+    return (int)zak_n;
+}
+
+//~ 73 numero de ceros en arreglo
+int zak_contar_ceros(int *zak_arr, int zak_n) {
+    int zak_cont = 0;
+    int zak_i = 0;
+    while (zak_i < zak_n) {
+        if (zak_arr[zak_i] == 0) zak_cont = zak_cont + 1;
+        zak_i = zak_i + 1;
+    }
+    return zak_cont;
+}
+
+//~ 74 reemplazar valor en arreglo
+void zak_reemplazar(int *zak_arr, int zak_n, int zak_viejo, int zak_nuevo) {
+    int zak_i = 0;
+    while (zak_i < zak_n) {
+        if (zak_arr[zak_i] == zak_viejo) zak_arr[zak_i] = zak_nuevo;
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 75 suma acumulada en arreglo
+void zak_acumulada(int *zak_arr, int *zak_dst, int zak_n) {
+    int zak_suma = 0;
+    int zak_i = 0;
+    while (zak_i < zak_n) {
+        zak_suma = zak_suma + zak_arr[zak_i];
+        zak_dst[zak_i] = zak_suma;
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 76 arreglo esta ordenado ascendente
+int zak_es_ordenado(int *zak_arr, int zak_n) {
+    int zak_i = 1;
+    while (zak_i < zak_n) {
+        if (zak_arr[zak_i] < zak_arr[zak_i - 1]) return 0;
+        zak_i = zak_i + 1;
+    }
+    return 1;
+}
+
+//~ 77 desplazar arreglo a la derecha
+void zak_desplazar_der(int *zak_arr, int zak_n) {
+    int zak_tmp = zak_arr[zak_n - 1];
+    int zak_i = zak_n - 1;
+    while (zak_i > 0) {
+        zak_arr[zak_i] = zak_arr[zak_i - 1];
+        zak_i = zak_i - 1;
+    }
+    zak_arr[0] = zak_tmp;
+}
+
+//~ 78 desplazar arreglo a la izquierda
+void zak_desplazar_izq(int *zak_arr, int zak_n) {
+    int zak_tmp = zak_arr[0];
+    int zak_i = 0;
+    while (zak_i < zak_n - 1) {
+        zak_arr[zak_i] = zak_arr[zak_i + 1];
+        zak_i = zak_i + 1;
+    }
+    zak_arr[zak_n - 1] = zak_tmp;
+}
+
+//~ 79 llenar arreglo con valor
+void zak_llenar(int *zak_arr, int zak_n, int zak_val) {
+    int zak_i = 0;
+    while (zak_i < zak_n) {
+        zak_arr[zak_i] = zak_val;
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 80 indice del maximo en arreglo
+int zak_idx_max(int *zak_arr, int zak_n) {
+    int zak_idx = 0;
+    int zak_i = 1;
+    while (zak_i < zak_n) {
+        if (zak_arr[zak_i] > zak_arr[zak_idx]) zak_idx = zak_i;
+        zak_i = zak_i + 1;
+    }
+    return zak_idx;
+}
+
+//~ 81 indice del minimo en arreglo
+int zak_idx_min(int *zak_arr, int zak_n) {
+    int zak_idx = 0;
+    int zak_i = 1;
+    while (zak_i < zak_n) {
+        if (zak_arr[zak_i] < zak_arr[zak_idx]) zak_idx = zak_i;
+        zak_i = zak_i + 1;
+    }
+    return zak_idx;
+}
+
+//~ 82 cadena empieza con prefijo
+int zak_empieza_con(char *zak_cad, char *zak_pre) {
+    int zak_i = 0;
+    while (zak_pre[zak_i] != '\0') {
+        if (zak_cad[zak_i] != zak_pre[zak_i]) return 0;
+        zak_i = zak_i + 1;
+    }
+    return 1;
+}
+
+//~ 83 cadena termina con sufijo
+int zak_termina_con(char *zak_cad, char *zak_suf) {
+    int zak_lc = zak_longitud(zak_cad);
+    int zak_ls = zak_longitud(zak_suf);
+    if (zak_ls > zak_lc) return 0;
+    int zak_i = 0;
+    while (zak_i < zak_ls) {
+        if (zak_cad[zak_lc - zak_ls + zak_i] != zak_suf[zak_i]) return 0;
+        zak_i = zak_i + 1;
+    }
+    return 1;
+}
+
+//~ 84 imprimir numeros del 1 al n
+void zak_imprimir_n(int zak_n) {
+    int zak_i = 1;
+    while (zak_i <= zak_n) {
+        printf("%d\n", zak_i);
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 85 imprimir numeros pares hasta n
+void zak_imprimir_pares(int zak_n) {
+    int zak_i = 2;
+    while (zak_i <= zak_n) {
+        printf("%d\n", zak_i);
+        zak_i = zak_i + 2;
+    }
+}
+
+//~ 86 imprimir numeros primos hasta n
+void zak_imprimir_primos(int zak_n) {
+    int zak_i = 2;
+    while (zak_i <= zak_n) {
+        if (zak_es_primo(zak_i)) printf("%d\n", zak_i);
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 87 diferencia entre maximo y minimo
+int zak_rango_arr(int *zak_arr, int zak_n) {
+    int zak_res = zak_max_arr(zak_arr, zak_n) - zak_min_arr(zak_arr, zak_n);
+    return zak_res;
+}
+
+//~ 88 arreglo tiene duplicados
+int zak_tiene_duplicados(int *zak_arr, int zak_n) {
+    int zak_i = 0;
+    while (zak_i < zak_n) {
+        int zak_j = zak_i + 1;
+        while (zak_j < zak_n) {
+            if (zak_arr[zak_i] == zak_arr[zak_j]) return 1;
+            zak_j = zak_j + 1;
+        }
+        zak_i = zak_i + 1;
+    }
+    return 0;
+}
+
+//~ 89 concatenar dos cadenas en destino
+void zak_concat(char *zak_dst, char *zak_src) {
+    int zak_i = zak_longitud(zak_dst);
+    int zak_j = 0;
+    while (zak_src[zak_j] != '\0') {
+        zak_dst[zak_i] = zak_src[zak_j];
+        zak_i = zak_i + 1;
+        zak_j = zak_j + 1;
+    }
+    zak_dst[zak_i] = '\0';
+}
+
+//~ 90 copiar cadena
+void zak_copiar_cad(char *zak_dst, char *zak_src) {
+    int zak_i = 0;
+    while (zak_src[zak_i] != '\0') {
+        zak_dst[zak_i] = zak_src[zak_i];
+        zak_i = zak_i + 1;
+    }
+    zak_dst[zak_i] = '\0';
+}
+
+//~ 91 numero es armstrong
+int zak_es_armstrong(int zak_n) {
+    int zak_orig = zak_n;
+    int zak_dig  = zak_contar_digitos(zak_n);
+    int zak_res  = 0;
+    while (zak_n > 0) {
+        int zak_d = zak_n % 10;
+        zak_res = zak_res + zak_potencia(zak_d, zak_dig);
+        zak_n   = zak_n / 10;
+    }
+    if (zak_res == zak_orig) return 1;
+    return 0;
+}
+
+//~ 92 sumar elementos de la diagonal de matriz 3x3
+int zak_diagonal(int zak_mat[3][3]) {
+    int zak_res = 0;
+    int zak_i   = 0;
+    while (zak_i < 3) {
+        zak_res = zak_res + zak_mat[zak_i][zak_i];
+        zak_i   = zak_i + 1;
+    }
+    return zak_res;
+}
+
+//~ 93 convertir celsius a fahrenheit
+float zak_cel_a_fahr(float zak_c) {
+    float zak_res = zak_c * 9.0f / 5.0f + 32.0f;
+    return zak_res;
+}
+
+//~ 94 convertir fahrenheit a celsius
+float zak_fahr_a_cel(float zak_f) {
+    float zak_res = (zak_f - 32.0f) * 5.0f / 9.0f;
+    return zak_res;
+}
+
+//~ 95 media geometrica de dos numeros
+float zak_media_geo(float zak_a, float zak_b) {
+    if (zak_a < 0 || zak_b < 0) return 0.0f;
+    float zak_res = (float)sqrt((double)(zak_a * zak_b));
+    return zak_res;
+}
+
+//~ 96 numero de bits en uno
+int zak_contar_bits(int zak_n) {
+    int zak_cont = 0;
+    while (zak_n > 0) {
+        if (zak_n & 1) zak_cont = zak_cont + 1;
+        zak_n = zak_n >> 1;
+    }
+    return zak_cont;
+}
+
+//~ 97 es potencia de dos
+int zak_es_pot2(int zak_n) {
+    if (zak_n <= 0) return 0;
+    if ((zak_n & (zak_n - 1)) == 0) return 1;
+    return 0;
+}
+
+//~ 98 intercambiar sin variable temporal
+void zak_swap_xor(int *zak_a, int *zak_b) {
+    *zak_a = *zak_a ^ *zak_b;
+    *zak_b = *zak_a ^ *zak_b;
+    *zak_a = *zak_a ^ *zak_b;
+}
+
+//~ 99 imprimir matriz 3x3
+void zak_imprimir_mat(int zak_mat[3][3]) {
+    int zak_i = 0;
+    while (zak_i < 3) {
+        int zak_j = 0;
+        while (zak_j < 3) {
+            printf("%d ", zak_mat[zak_i][zak_j]);
+            zak_j = zak_j + 1;
+        }
+        printf("\n");
+        zak_i = zak_i + 1;
+    }
+}
+
+//~ 100 signo de un numero
+int zak_signo(int zak_n) {
+    if (zak_n > 0) return  1;
+    if (zak_n < 0) return -1;
+    return 0;
+}
