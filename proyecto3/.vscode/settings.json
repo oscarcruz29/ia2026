@@ -1,6 +1,6 @@
 {
   "zakRnn.pythonPath": "python3",
-  "zakRnn.serverScript": "C:\\Users\\carlo\\Documents\\GitHub\\ia2026\\proyecto3\\rnn-zak\\server_stdio.py",
-  "zakRnn.maxNew": 60,
-  "zakRnn.temperature": 0.3
+  "zakRnn.serverScript": "C:\\Users\\jor_d\\OneDrive\\Documents\\GitHub\\ia2026\\proyecto3\\rnn-zak\\server_stdio.py",
+  "zakRnn.maxNew": 250,
+  "zakRnn.temperature": 0.2
 }

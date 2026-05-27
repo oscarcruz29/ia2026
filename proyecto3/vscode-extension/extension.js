@@ -11,16 +11,21 @@ let reqId   = 0;
 function ensureServer() {
   if (proc) return;
 
-  // Rutas absolutas fijas para evitar conflictos de configuraciones fantasma en VS Code
-  const root = "C:\\Users\\carlo\\Documents\\GitHub\\ia2026\\proyecto3";
-  const script = root + "\\rnn-zak\\server_stdio.py";
-  const activate = root + "\\venv\\Scripts\\activate.bat";
+  const root = "C:\\Users\\jor_d\\OneDrive\\Documents\\GitHub\\ia2026\\proyecto3";
+  const pythonExe = root + "\\venv\\Scripts\\python.exe";
+  const scriptPath = root + "\\rnn-zak\\server_stdio.py";
 
-  // Ejecutamos el activate y el script en cadena, igual que en la terminal
-  proc = spawn(`"${activate}" && python "${script}"`, [], {
-    shell: true,
+  // Ejecutamos Python de forma directa, sin shell: true
+  // Pasamos -u para asegurar que no haya buffer
+  proc = spawn(pythonExe, ["-u", scriptPath], {
     cwd: root,
-    stdio: ["pipe", "pipe", "pipe"]
+    stdio: ["pipe", "pipe", "pipe"],
+    env: {
+      ...process.env,
+      "PYTHONUNBUFFERED": "1",
+      "TF_CPP_MIN_LOG_LEVEL": "3", // Silencia los warnings de TensorFlow en consola
+      "CUDA_VISIBLE_DEVICES": "-1" // Fuerza uso de CPU
+    }
   });
 
   rl = readline.createInterface({ input: proc.stdout });
@@ -47,12 +52,11 @@ function ensureServer() {
 
   proc.on("exit", (code) => {
     if (code !== 0 && code !== null) {
-      vscode.window.showErrorMessage(`Zak RNN: El servidor Python se cerró inesperadamente (Código ${code})`);
+      vscode.window.showErrorMessage(`Zak RNN: El servidor Python se cerró (Código ${code})`);
     }
     proc = null;
     rl   = null;
     
-    // Si Python muere, cancelamos todas las promesas pendientes al instante (adiós Timeout de 120s)
     for (const [id, cb] of pending.entries()) {
       cb({ ok: false, error: "Servidor cerrado inesperadamente" });
     }
@@ -97,7 +101,7 @@ async function zakComplete() {
 
   try {
     const res    = await request("complete", { prefix, max_new: maxNew, temperature: temp });
-    const suffix = res.text.slice(prefix.length).split("\n")[0];
+    const suffix = res.text.slice(prefix.length);
     if (!suffix) {
       vscode.window.showInformationMessage("Zak RNN: no se generó sufijo nuevo.");
       return;
