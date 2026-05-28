@@ -297,7 +297,10 @@ class Juego:
     def registrar_decision_manual(self) -> None:
         if not self.bala_disparada:
             return
-        distancia = abs(self.jugador.x - self.bala.x)
+            
+        # 1. CAMBIO: Usar la distancia real (con signo), no el valor absoluto.
+        # Esto le da al modelo un vector direccional mucho más claro.
+        distancia = self.bala.x - self.jugador.x
 
         if not self.en_suelo:
             accion = ACCION_SALTAR
@@ -305,6 +308,15 @@ class Juego:
             accion = ACCION_AGACHAR
         else:
             accion = ACCION_NADA
+
+        # 2. CAMBIO: Submuestreo para evitar el desbalanceo extremo.
+        # Si la acción es saltar o agacharse (tu teabagging y tu esquive final), 
+        # SIEMPRE lo guardamos porque son datos valiosos.
+        # Pero si la acción es NADA, descartamos la mayoría para no inundar el dataset.
+        if accion == ACCION_NADA:
+            # Solo guardamos el 10% de los frames donde no haces nada
+            if random.random() > 0.37: 
+                return
 
         self.datos_modelo.append(
             Sample(
