@@ -11,7 +11,7 @@ let reqId   = 0;
 function ensureServer() {
   if (proc) return;
 
-  const root = "C:\\Users\\jor_d\\OneDrive\\Documents\\GitHub\\ia2026\\proyecto3";
+  const root = "C:\\Users\\oscar\\OneDrive\\Documentos\\GitHub\\ia2026\\proyecto3";
   const pythonExe = root + "\\venv\\Scripts\\python.exe";
   const scriptPath = root + "\\rnn-zak\\server_stdio.py";
 

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """Servidor RNN zak — JSON por linea en stdin/stdout."""
 from __future__ import annotations
 import json, sys
@@ -12,7 +12,7 @@ _model  = None
 _stoi: dict[str, int] = {}
 _itos: dict[int, str] = {}
 _BLOCK  = 64
-_fast_predict = None # Agregamos una variable global para el compilador
+_fast_predict = None
 
 def _load():
     global _model, _stoi, _itos, _BLOCK, _fast_predict
@@ -44,7 +44,7 @@ def _complete(prefix, max_new=80, temperature=0.75):
             pad = np.full(_BLOCK - x.shape[0], ids[0], dtype=np.int64)
             x   = np.concatenate([pad, x])
         
-        # --- USAMOS LA FUNCIÓN COMPILADA ---
+       
         logits = _fast_predict(x.reshape(1, _BLOCK)).numpy()[0, -1, :]
         
         logits = logits / max(temperature, 1e-6)
@@ -90,10 +90,10 @@ def main():
     sys.stderr.write("servidor zak listo\n")
     sys.stderr.flush()
     
-    # --- SOLUCIÓN AL BÚFER DE ENTRADA ---
+    
     while True:
         line = sys.stdin.readline()
-        if not line: # Cierre de pipe o EOF
+        if not line: 
             break
         line = line.strip()
         if not line:
