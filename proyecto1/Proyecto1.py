@@ -3,6 +3,7 @@ import csv
 import random
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
+from collections import Counter 
 
 import pygame
 from sklearn.model_selection import train_test_split
@@ -306,12 +307,30 @@ class Juego:
         X = [[s.velocidad_bala, s.distancia, s.altura_bala] for s in samples]
         y = [s.accion for s in samples]
 
+        # --- Filtrar clases con menos del 10% del total ---
+        from collections import Counter
+        nombres = {0: "NADA", 1: "SALTAR", 2: "AGACHAR"}
+        total = len(y)
+        conteo = Counter(y)
+        clases_removidas = [c for c, n in conteo.items() if n / total < 0.10]
+
+        if clases_removidas:
+            etiquetas = ", ".join(nombres.get(c, str(c)) for c in clases_removidas)
+            pares = [(xi, lbl) for xi, lbl in zip(X, y) if lbl not in clases_removidas]
+            if not pares:
+                return False, "Tras filtrar clases desbalanceadas no quedan datos suficientes."
+            X, y = zip(*pares)
+            X, y = list(X), list(y)
+            # Limpia también el dataset persistente para futuras sesiones
+            self.datos_modelo = [s for s in self.datos_modelo if s.accion not in clases_removidas]
+        else:
+            etiquetas = ""
+
         clases = sorted(set(y))
         if len(clases) < 2:
             self._reset_modelo()
             self.clase_unica = int(clases[0])
             self.modelo_entrenado = True
-            nombres = {0: "NADA", 1: "SALTAR", 2: "AGACHAR"}
             return True, f"Modelo trivial: siempre {nombres.get(self.clase_unica, '?')}."
 
         X_train, X_test, y_train, y_test = train_test_split(
@@ -323,14 +342,15 @@ class Juego:
             max_depth=6,
             random_state=42
         )
-        
         clf.fit(X_train, y_train)
         acc = clf.score(X_test, y_test)
 
         self._reset_modelo()
         self.modelo = clf
         self.modelo_entrenado = True
-        return True, f"Random Forest entrenado. Accuracy test ≈ {acc:.3f}"
+
+        sufijo = f" (se eliminó: {etiquetas})" if etiquetas else ""
+        return True, f"Random Forest entrenado. Accuracy test ≈ {acc:.3f}{sufijo}"
 
     def decision_auto_accion(self) -> int:
         """Devuelve ACCION_NADA / ACCION_SALTAR / ACCION_AGACHAR."""
