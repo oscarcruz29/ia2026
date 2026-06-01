@@ -274,7 +274,7 @@ class Juego:
         if not self.bala_disparada:
             return
             
-        # Distancia direccional (el modelo sabe exactamente desde dónde viene)
+    
         distancia = self.bala.x - self.jugador.x
 
         if not self.en_suelo:
@@ -366,8 +366,8 @@ class Juego:
 
         opciones = [
             "M - Manual (reinicia dataset y borra modelo)",
-            "A - Auto (usa Random Forest; sin modelo NO salta)",
-            "T - Entrenar Random Forest",
+            "A - Auto (juega solo con el modelo)",
+            "T - Entrenar",
             "C - Exportar datos a CSV",
             "F - Fullscreen (toggle)",
             "Q - Salir",
