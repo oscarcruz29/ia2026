@@ -284,9 +284,9 @@ class Juego:
         else:
             accion = ACCION_NADA
 
-        # Submuestreo para aprender el teabagging sin saturarse de NADA
+        # Submuestreo para no saturarse de NADA
         if accion == ACCION_NADA:
-            if random.random() > 0.40: 
+            if random.random() > 0.53: 
                 return
 
         self.datos_modelo.append(

@@ -51,8 +51,8 @@ def predecir(ruta_imagen):
 # ─── 4. Pruebas ───────────────────────────────────────────────────────────────
 print("Iniciando pruebas de predicción...\n")
 
-predecir('/Users/Leo/Downloads/ballena-1_1b15f788_221212154535_1280x720.jpg')
-predecir('//Users/Leo/Downloads/hero-articulo-pajaro-o-ave-1200.jpg.webp')
-predecir('/Users/Leo/Downloads/images.jpeg')
-predecir('/Users/Leo/Downloads/11295483124-acaf5d0519-k.jpg')
-predecir('/Users/Leo/Downloads/Ateles_fusciceps_Colombia.JPG')
+predecir('/Users/Leo/Downloads/download (10).jpeg')
+predecir('/Users/Leo/Downloads/download (9).jpeg')
+predecir('/Users/Leo/Downloads/download (8).jpeg')
+predecir('/Users/Leo/Downloads/download (7).jpeg')
+predecir('/Users/Leo/Downloads/download (6).jpeg')
