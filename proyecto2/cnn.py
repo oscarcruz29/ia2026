@@ -1,177 +1,105 @@
-import numpy as np
 import os
-import re
-import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report
-
-import keras
 import tensorflow as tf
+from tensorflow import keras
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from tensorflow.keras.utils import to_categorical
-from keras.layers import LeakyReLU
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, LeakyReLU
 
-# ─── Cargar imágenes ──────────────────────────────────────────────────────────
-# Estructura esperada:
-#   dataset/
-#     ballena/   imagen1.jpg ...
-#     pajaro/    imagen1.jpg ...
-#     arana/     imagen1.jpg ...
-#     mono/      imagen1.jpg ...
-
+# ─── 1. Configuración ─────────────────────────────────────────────────────────
 IMG_H, IMG_W = 128, 128
+BATCH_SIZE   = 32
+EPOCHS       = 50
+INIT_LR      = 1e-4
 DATASET_DIR  = os.path.join(os.getcwd(), 'dataset')
 
-images      = []
-directories = []
-dircount    = []
-prevRoot    = ''
-cant        = 0
+print(f"Cargando imágenes desde: {DATASET_DIR}")
 
-print("Leyendo imágenes de", DATASET_DIR)
-
-for root, dirnames, filenames in os.walk(DATASET_DIR):
-    for filename in filenames:
-        if re.search(r"\.(jpg|jpeg|png|bmp|tiff)$", filename):
-            cant += 1
-            filepath = os.path.join(root, filename)
-            image = plt.imread(filepath)
-            if len(image.shape) == 3:
-                images.append(image)
-            if prevRoot != root:
-                prevRoot = root
-                directories.append(root)
-                dircount.append(cant)
-                cant = 0
-
-dircount.append(cant)
-dircount = dircount[1:]
-dircount[0] = dircount[0] + 1
-
-print('Directorios leídos:', len(directories))
-print('Imágenes en cada directorio:', dircount)
-print('Total de imágenes:', sum(dircount))
-
-# ─── Etiquetas ────────────────────────────────────────────────────────────────
-labels = []
-indice = 0
-for cantidad in dircount:
-    for i in range(cantidad):
-        labels.append(indice)
-    indice += 1
-
-print("Etiquetas creadas:", len(labels))
-
-animales = []
-for directorio in directories:
-    name = directorio.split(os.sep)
-    animales.append(name[-1])
-    print(animales.index(name[-1]), name[-1])
-
-# ─── Numpy arrays ─────────────────────────────────────────────────────────────
-y = np.array(labels)
-X = np.array(images, dtype=np.uint8)
-
-classes  = np.unique(y)
-nClasses = len(classes)
-print('Total de clases:', nClasses)
-print('Clases:', classes)
-
-# ─── Train / Test split ───────────────────────────────────────────────────────
-train_X, test_X, train_Y, test_Y = train_test_split(X, y, test_size=0.2)
-print('Training shape:', train_X.shape, train_Y.shape)
-print('Testing shape :', test_X.shape,  test_Y.shape)
-
-# ─── Normalización ────────────────────────────────────────────────────────────
-train_X = train_X.astype('float32') / 255.
-test_X  = test_X.astype('float32')  / 255.
-
-# ─── One-hot encoding ─────────────────────────────────────────────────────────
-train_Y_one_hot = to_categorical(train_Y)
-test_Y_one_hot  = to_categorical(test_Y)
-
-print('Etiqueta original:', train_Y[0])
-print('One-hot:', train_Y_one_hot[0])
-
-# ─── Train / Validation split ─────────────────────────────────────────────────
-train_X, valid_X, train_label, valid_label = train_test_split(
-    train_X, train_Y_one_hot, test_size=0.2, random_state=48
+# ─── 2. Carga de Datos (Eficiente en Memoria) ─────────────────────────────────
+# Crea el dataset de entrenamiento (80%)
+train_ds = tf.keras.utils.image_dataset_from_directory(
+    DATASET_DIR,
+    validation_split=0.2,
+    subset="training",
+    seed=48,
+    image_size=(IMG_H, IMG_W),
+    batch_size=BATCH_SIZE,
+    label_mode='categorical'
 )
-print(train_X.shape, valid_X.shape, train_label.shape, valid_label.shape)
 
-# ─── Modelo ───────────────────────────────────────────────────────────────────
-INIT_LR    = 1e-4
-epochs     = 50
-batch_size = 32
+# Crea el dataset de validación (20%)
+val_ds = tf.keras.utils.image_dataset_from_directory(
+    DATASET_DIR,
+    validation_split=0.2,
+    subset="validation",
+    seed=48,
+    image_size=(IMG_H, IMG_W),
+    batch_size=BATCH_SIZE,
+    label_mode='categorical'
+)
 
-animal_model = Sequential()
-animal_model.add(Conv2D(32, kernel_size=(3, 3), activation='linear',
-                        padding='same', input_shape=(IMG_H, IMG_W, 3)))
-animal_model.add(LeakyReLU(alpha=0.1))
-animal_model.add(MaxPooling2D((2, 2), padding='same'))
-animal_model.add(Dropout(0.3))
+animales = train_ds.class_names
+nClasses = len(animales)
+print('\nClases detectadas:', animales)
+print('Total de clases:', nClasses)
 
-animal_model.add(Conv2D(64, kernel_size=(3, 3), activation='linear', padding='same'))
-animal_model.add(LeakyReLU(alpha=0.1))
-animal_model.add(MaxPooling2D((2, 2), padding='same'))
-animal_model.add(Dropout(0.3))
+# Normalización (escala los píxeles de 0-255 a 0.0-1.0)
+normalization_layer = tf.keras.layers.Rescaling(1./255)
+train_ds = train_ds.map(lambda x, y: (normalization_layer(x), y))
+val_ds   = val_ds.map(lambda x, y: (normalization_layer(x), y))
 
-animal_model.add(Flatten())
-animal_model.add(Dense(64, activation='linear'))
-animal_model.add(LeakyReLU(alpha=0.1))
-animal_model.add(Dropout(0.3))
-animal_model.add(Dense(nClasses, activation='softmax'))
+# Optimización de rendimiento para la carga de datos
+AUTOTUNE = tf.data.AUTOTUNE
+train_ds = train_ds.cache().prefetch(buffer_size=AUTOTUNE)
+val_ds   = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
+
+# ─── 3. Construcción del Modelo ───────────────────────────────────────────────
+animal_model = Sequential([
+    # Data Augmentation integrado
+    keras.layers.RandomFlip("horizontal", input_shape=(IMG_H, IMG_W, 3)),
+    keras.layers.RandomRotation(0.1),
+    keras.layers.RandomZoom(0.1),
+
+    # Capas Convolucionales
+    Conv2D(32, kernel_size=(3, 3), activation='linear', padding='same'),
+    LeakyReLU(alpha=0.1),
+    MaxPooling2D((2, 2), padding='same'),
+    Dropout(0.3),
+
+    Conv2D(64, kernel_size=(3, 3), activation='linear', padding='same'),
+    LeakyReLU(alpha=0.1),
+    MaxPooling2D((2, 2), padding='same'),
+    Dropout(0.3),
+
+    # Clasificador
+    Flatten(),
+    Dense(64, activation='linear'),
+    LeakyReLU(alpha=0.1),
+    Dropout(0.3),
+    Dense(nClasses, activation='softmax')
+])
 
 animal_model.summary()
 
 animal_model.compile(
-    loss=keras.losses.categorical_crossentropy,
-    optimizer=tf.keras.optimizers.Adam(learning_rate=INIT_LR),
+    loss=keras.losses.CategoricalCrossentropy(),
+    optimizer=keras.optimizers.Adam(learning_rate=INIT_LR),
     metrics=['accuracy']
 )
 
-# ─── Entrenamiento ────────────────────────────────────────────────────────────
-animal_train = animal_model.fit(
-    train_X, train_label,
-    batch_size=batch_size,
-    epochs=epochs,
-    verbose=1,
-    validation_data=(valid_X, valid_label)
+# ─── 4. Entrenamiento y Exportación ───────────────────────────────────────────
+print("\nIniciando entrenamiento...")
+history = animal_model.fit(
+    train_ds,
+    epochs=EPOCHS,
+    validation_data=val_ds,
+    verbose=1
 )
 
+# Evaluar métricas finales en el set de validación
+print("\nEvaluando modelo en el set de validación...")
+val_loss, val_acc = animal_model.evaluate(val_ds, verbose=0)
+print(f'Validation Loss:     {val_loss:.4f}')
+print(f'Validation Accuracy: {val_acc:.4f}\n')
+
+# Guardar el modelo en disco
 animal_model.save("modelo_animales.keras")
-
-# ─── Evaluación ───────────────────────────────────────────────────────────────
-test_eval = animal_model.evaluate(test_X, test_Y_one_hot, verbose=1)
-print('Test loss:    ', test_eval[0])
-print('Test accuracy:', test_eval[1])
-
-# ─── Reporte de clasificación ─────────────────────────────────────────────────
-predicted_classes2 = animal_model.predict(test_X)
-
-predicted_classes = []
-for pred in predicted_classes2:
-    predicted_classes.append(pred.tolist().index(max(pred)))
-predicted_classes = np.array(predicted_classes)
-
-print(classification_report(test_Y, predicted_classes, target_names=animales))
-
-# ─── Predecir imagen nueva ────────────────────────────────────────────────────
-from skimage.transform import resize
-
-def predecir(ruta_imagen):
-    image = plt.imread(ruta_imagen)
-    image_resized = resize(image, (IMG_H, IMG_W),
-                           anti_aliasing=True, clip=False, preserve_range=True)
-    X_new  = np.array([image_resized], dtype=np.uint8)
-    X_new  = X_new.astype('float32') / 255.
-    pred   = animal_model.predict(X_new)
-    clase  = animales[pred[0].tolist().index(max(pred[0]))]
-    print(ruta_imagen, "→", clase)
-
-predecir('/Users/Leo/Downloads/ballena-1_1b15f788_221212154535_1280x720.jpg')
-predecir('/Users/Leo/Downloads/png1.jpg')
-predecir('/Users/Leo/Downloads/images.jpeg')
-# Ejemplo de uso:
-# predecir('/ruta/a/tu/imagen.jpg')
+print("✓ Modelo guardado exitosamente como 'modelo_animales.keras'")
