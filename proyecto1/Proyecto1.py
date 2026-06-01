@@ -6,31 +6,15 @@ from typing import List, Optional, Tuple
 
 import pygame
 from sklearn.model_selection import train_test_split
-from sklearn.neural_network import MLPClassifier
-from sklearn.preprocessing import StandardScaler
-
-import matplotlib
-try:
-    matplotlib.use("TkAgg")
-except Exception:
-    try:
-        matplotlib.use("Qt5Agg")
-    except Exception:
-        pass
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D  # noqa: F401
-
-plt.ion()
+from sklearn.ensemble import RandomForestClassifier
 
 BASE_W, BASE_H = 1080, 720
 WINDOW_FRACTION = 0.97
 EXTRA_SCALE = 1.1
 
-
 ACCION_NADA    = 0
 ACCION_SALTAR  = 1
 ACCION_AGACHAR = 2
-
 
 @dataclass
 class Sample:
@@ -38,7 +22,6 @@ class Sample:
     distancia: float
     altura_bala: float   
     accion: int          
-
 
 class Juego:
     def __init__(self) -> None:
@@ -50,19 +33,18 @@ class Juego:
         start_w = BASE_W
         start_h = BASE_H
         self.pantalla = pygame.display.set_mode((start_w, start_h), self._flags)
-        pygame.display.set_caption("Juego: Bala + salto + agachar + MLP")
+        pygame.display.set_caption("Juego: Bala + salto + agachar + Random Forest")
 
-        self.BLANCO  = (255, 255, 255)
-        self.NEGRO   = (0, 0, 0)
-        self.GRIS    = (200, 200, 200)
+        self.BLANCO   = (255, 255, 255)
+        self.NEGRO    = (0, 0, 0)
+        self.GRIS     = (200, 200, 200)
         self.AMARILLO = (255, 220, 120)
 
         self.corriendo   = True
         self.modo_auto   = False
 
         self.datos_modelo: List[Sample] = []
-        self.modelo: Optional[MLPClassifier] = None
-        self.scaler: Optional[StandardScaler] = None
+        self.modelo: Optional[RandomForestClassifier] = None
         self.modelo_entrenado = False
         self.clase_unica: Optional[int] = None
         self.ultima_proba: Optional[list] = None
@@ -114,7 +96,7 @@ class Juego:
         self.ground_y    = self.h - ground_offset
 
         self.player_size          = (int(32 * self.scale), int(48 * self.scale))
-        self.player_size_agachado = (int(32 * self.scale), int(24 * self.scale))  # ← nuevo
+        self.player_size_agachado = (int(32 * self.scale), int(24 * self.scale)) 
         self.bullet_size = (int(16 * self.scale), int(16 * self.scale))
         self.ship_size   = (int(64 * self.scale), int(64 * self.scale))
         self.fondo_speed = max(1, int(2 * self.scale))
@@ -212,7 +194,6 @@ class Juego:
 
     def _reset_modelo(self) -> None:
         self.modelo          = None
-        self.scaler          = None
         self.modelo_entrenado = False
         self.clase_unica     = None
 
@@ -222,21 +203,18 @@ class Juego:
             return "No hay datos para exportar."
 
         base = os.path.dirname(__file__)
-        ruta = os.path.join(base, "datos_mlp.csv")
+        ruta = os.path.join(base, "datos_modelo.csv")
 
         try:
             with open(ruta, "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-
                 writer.writerow(["velocidad_bala", "distancia", "altura_bala", "accion"])
                 for s in self.datos_modelo:
                     writer.writerow([s.velocidad_bala, s.distancia, s.altura_bala, s.accion])
         except Exception as e:
             return f"Error al guardar CSV: {e}"
 
-        return f"CSV guardado en datos_mlp.csv ({len(self.datos_modelo)} filas)."
-
-    
+        return f"CSV guardado en datos_modelo.csv ({len(self.datos_modelo)} filas)."
 
     # ----------------- bala / salto / agachar -----------------
     def disparar_bala(self) -> None:
@@ -275,14 +253,12 @@ class Juego:
                 self.salto        = False
                 self.salto_vel    = self.salto_vel_inicial
                 self.en_suelo     = True
-
    
     def iniciar_agachar(self) -> None:
         """El mono se agacha solo si está en el suelo y no está saltando."""
         if self.en_suelo and not self.salto:
             if not self.agachado:
                 self.agachado = True
-                
                 self.jugador.height = self.player_size_agachado[1]
                 self.jugador.y      = self.ground_y + (self.player_size[1] - self.player_size_agachado[1])
 
@@ -298,8 +274,7 @@ class Juego:
         if not self.bala_disparada:
             return
             
-        # 1. CAMBIO: Usar la distancia real (con signo), no el valor absoluto.
-        # Esto le da al modelo un vector direccional mucho más claro.
+        # Distancia direccional (el modelo sabe exactamente desde dónde viene)
         distancia = self.bala.x - self.jugador.x
 
         if not self.en_suelo:
@@ -309,13 +284,9 @@ class Juego:
         else:
             accion = ACCION_NADA
 
-        # 2. CAMBIO: Submuestreo para evitar el desbalanceo extremo.
-        # Si la acción es saltar o agacharse (tu teabagging y tu esquive final), 
-        # SIEMPRE lo guardamos porque son datos valiosos.
-        # Pero si la acción es NADA, descartamos la mayoría para no inundar el dataset.
+        # Submuestreo para aprender el teabagging sin saturarse de NADA
         if accion == ACCION_NADA:
-            # Solo guardamos el 10% de los frames donde no haces nada
-            if random.random() > 0.37: 
+            if random.random() > 0.40: 
                 return
 
         self.datos_modelo.append(
@@ -330,7 +301,7 @@ class Juego:
     def entrenar_modelo(self) -> Tuple[bool, str]:
         samples = list(self.datos_modelo)
         if len(samples) < 80:
-            return False, "Necesitas más datos (>= 80). Juega en MANUAL."
+            return False, f"Necesitas más datos ({len(samples)}/80). Juega en MANUAL."
 
         X = [[s.velocidad_bala, s.distancia, s.altura_bala] for s in samples]
         y = [s.accion for s in samples]
@@ -346,51 +317,43 @@ class Juego:
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=0.2, random_state=42, stratify=y
         )
-        scaler  = StandardScaler()
-        X_train = scaler.fit_transform(X_train)
-        X_test  = scaler.transform(X_test)
 
-        clf = MLPClassifier(
-            hidden_layer_sizes=(6, 6),
-            activation="relu",
-            solver="adam",
-            max_iter=300000,
-            random_state=42,
+        clf = RandomForestClassifier(
+            n_estimators=50,
+            max_depth=6,
+            random_state=42
         )
+        
         clf.fit(X_train, y_train)
         acc = clf.score(X_test, y_test)
 
         self._reset_modelo()
-        self.scaler = scaler
         self.modelo = clf
         self.modelo_entrenado = True
-        return True, f"MLP entrenado. Accuracy test ≈ {acc:.3f}"
+        return True, f"Random Forest entrenado. Accuracy test ≈ {acc:.3f}"
 
     def decision_auto_accion(self) -> int:
         """Devuelve ACCION_NADA / ACCION_SALTAR / ACCION_AGACHAR."""
         if not self.modelo_entrenado or not self.bala_disparada:
             return ACCION_NADA
 
-        distancia = abs(self.jugador.x - self.bala.x)
+        distancia = self.bala.x - self.jugador.x
 
-       
         if self.clase_unica is not None and self.modelo is None:
             self.ultima_proba = None
             return int(self.clase_unica)
 
-        if self.modelo is None or self.scaler is None:
+        if self.modelo is None:
             return ACCION_NADA
 
-        X  = [[float(self.velocidad_bala), float(distancia), float(self.altura_bala_actual)]]
-        Xs = self.scaler.transform(X)
+        X = [[float(self.velocidad_bala), float(distancia), float(self.altura_bala_actual)]]
 
         if hasattr(self.modelo, "predict_proba"):
-            probas = self.modelo.predict_proba(Xs)[0]
-            
+            probas = self.modelo.predict_proba(X)[0]
             self.ultima_proba = list(zip(self.modelo.classes_, probas))
             accion = int(self.modelo.classes_[probas.argmax()])
         else:
-            accion = int(self.modelo.predict(Xs)[0])
+            accion = int(self.modelo.predict(X)[0])
             self.ultima_proba = None
 
         return accion
@@ -403,8 +366,8 @@ class Juego:
 
         opciones = [
             "M - Manual (reinicia dataset y borra modelo)",
-            "A - Auto (usa MLP; sin modelo NO salta)",
-            "T - Entrenar MLP",
+            "A - Auto (usa Random Forest; sin modelo NO salta)",
+            "T - Entrenar Random Forest",
             "C - Exportar datos a CSV",
             "F - Fullscreen (toggle)",
             "Q - Salir",
@@ -455,7 +418,7 @@ class Juego:
                         break
                     if e.key == pygame.K_a:
                         if not self.modelo_entrenado:
-                            msg = "Primero entrena el MLP (T) en esta sesión."
+                            msg = "Primero entrena el Modelo (T) en esta sesión."
                         else:
                             self.modo_auto = True
                             self._reset_estado_juego()
@@ -488,7 +451,6 @@ class Juego:
         if self.frame_count >= self.frame_speed:
             self.current_frame = (self.current_frame + 1) % len(self.jugador_frames)
             self.frame_count = 0
-
         
         if self.agachado:
             self.pantalla.blit(self.jugador_frame_agachado, (self.jugador.x, self.jugador.y))
@@ -506,7 +468,6 @@ class Juego:
         if self.jugador.colliderect(self.bala):
             self.terminar_agachar()   
             self._reset_estado_juego()
-
         
         if self.modelo_entrenado and self.modo_auto and self.ultima_proba is not None:
             partes = "  ".join(
@@ -514,7 +475,6 @@ class Juego:
             )
             txt = self.fuente_chica.render(f"probas: {partes}", True, self.AMARILLO)
             self.pantalla.blit(txt, (10, 10))
-
         
         if self.bala_disparada:
             niveles_txt = {0.00: "MUY BAJA", 0.20: "BAJA", 0.40: "MEDIA-BAJA", 0.60: "MEDIA-ALTA", 0.80: "ALTA", 1.00: "MAXIMA"}
@@ -541,7 +501,6 @@ class Juego:
                         self._toggle_fullscreen()
                     elif e.key == pygame.K_SPACE and not self.modo_auto and self.en_suelo:
                         self.iniciar_salto()
-                    # ← NUEVO: agacharse al presionar DOWN o S
                     elif e.key == pygame.K_DOWN and not self.modo_auto:
                         self.iniciar_agachar()
                 
@@ -559,7 +518,6 @@ class Juego:
                 elif accion == ACCION_AGACHAR and self.en_suelo and not self.salto:
                     self.iniciar_agachar()
                 else:
-                   
                     if accion != ACCION_AGACHAR and self.agachado:
                         self.terminar_agachar()
             else:
@@ -577,10 +535,8 @@ class Juego:
 
         pygame.quit()
 
-
 def main() -> None:
     Juego().loop()
-
 
 if __name__ == "__main__":
     main()
