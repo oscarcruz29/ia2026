@@ -16,12 +16,12 @@ TAMANO_IMAGEN  = "medium"
 AWS_S3_BASE    = "https://inaturalist-open-data.s3.amazonaws.com/photos/"
 
 CLASES = {
-    "ballena": 152904,   # Cetacea (todas las ballenas y delfines)
+    "ballena": 152871,   # Cetacea (todas las ballenas y delfines)
     "pajaro":  3,        # Aves (todos los pájaros)
     "arana":   47118,    # Araneae (todas las arañas)
     "mono":    43367,    # Primates (todos los monos)
+    "rana":    20978,    # Amphibia (incluye ranas y sapos)
 }
-
 
 def redimensionar(data_bytes, size):
     """Recibe los bytes de la imagen y devuelve una imagen PIL redimensionada."""
@@ -29,9 +29,12 @@ def redimensionar(data_bytes, size):
     if img.width < 80 or img.height < 80:
         return None
     img = img.convert("RGB")
-    img = img.resize(size, Image.LANCZOS)
+    
+    # Soporte compatible para versiones antiguas y nuevas de Pillow
+    resample_filter = Image.Resampling.LANCZOS if hasattr(Image, 'Resampling') else Image.LANCZOS
+    img = img.resize(size, resample_filter)
+    
     return img
-
 
 def descargar_clase(nombre, taxon_id, objetivo, target_dir):
     os.makedirs(target_dir, exist_ok=True)
@@ -111,7 +114,6 @@ def descargar_clase(nombre, taxon_id, objetivo, target_dir):
 
     print(f"\n  ✓ {descargadas} imágenes guardadas en {target_dir}/")
     return descargadas
-
 
 # ==========================================
 # DESCARGA DE TODAS LAS CLASES

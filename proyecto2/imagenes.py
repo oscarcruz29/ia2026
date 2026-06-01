@@ -6,7 +6,7 @@ Instalar:
     pip install fiftyone Pillow
 
 Clases disponibles en Open Images:
-    Whale, Bird, Spider, Monkey
+    Whale, Bird, Spider, Monkey, Frog
 """
 
 import os
@@ -28,6 +28,7 @@ CLASES = {
     "pajaro":  "Bird",
     "arana":   "Spider",
     "mono":    "Monkey",
+    "rana":    "Frog",    # Clase agregada para las ranas
 }
 
 # ─── Descarga desde Open Images ───────────────────────────────────────────────
@@ -35,6 +36,7 @@ CLASES = {
 def descargar_clase(nombre_local, nombre_openimages, max_imgs):
     print(f"\n[{nombre_local.upper()}] Descargando {max_imgs} imágenes de Open Images...")
 
+    # fiftyone descargará la metadata del dataset la primera vez que se ejecute
     dataset = foz.load_zoo_dataset(
         "open-images-v7",
         split="train",               # "train" tiene la mayor cantidad de imágenes
@@ -59,7 +61,11 @@ def descargar_clase(nombre_local, nombre_openimages, max_imgs):
                 if img.width < 80 or img.height < 80:
                     continue
                 img = img.convert("RGB")
-                img = img.resize(IMG_SIZE, Image.LANCZOS)
+                
+                # Soporte compatible para versiones antiguas y nuevas de Pillow
+                resample_filter = Image.Resampling.LANCZOS if hasattr(Image, 'Resampling') else Image.LANCZOS
+                img = img.resize(IMG_SIZE, resample_filter)
+                
                 dst = carpeta_dest / f"{nombre_local}_{guardadas:04d}.jpg"
                 img.save(dst, "JPEG", quality=90)
                 guardadas += 1
