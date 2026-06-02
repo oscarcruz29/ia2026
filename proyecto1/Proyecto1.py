@@ -287,7 +287,7 @@ class Juego:
 
         # Submuestreo para no saturarse de NADA
         if accion == ACCION_NADA:
-            if random.random() > 0.53: 
+            if random.random() > 0.62: 
                 return
 
         self.datos_modelo.append(
@@ -307,12 +307,14 @@ class Juego:
         X = [[s.velocidad_bala, s.distancia, s.altura_bala] for s in samples]
         y = [s.accion for s in samples]
 
-        # --- Filtrar clases con menos del 10% del total ---
-        from collections import Counter
         nombres = {0: "NADA", 1: "SALTAR", 2: "AGACHAR"}
         total = len(y)
         conteo = Counter(y)
         clases_removidas = [c for c, n in conteo.items() if n / total < 0.10]
+
+        acciones_desbalanceadas = [c for c in clases_removidas if c in (ACCION_SALTAR, ACCION_AGACHAR)]
+        if len(acciones_desbalanceadas) >= 2:
+            clases_removidas = []
 
         if clases_removidas:
             etiquetas = ", ".join(nombres.get(c, str(c)) for c in clases_removidas)
@@ -321,7 +323,6 @@ class Juego:
                 return False, "Tras filtrar clases desbalanceadas no quedan datos suficientes."
             X, y = zip(*pares)
             X, y = list(X), list(y)
-            # Limpia también el dataset persistente para futuras sesiones
             self.datos_modelo = [s for s in self.datos_modelo if s.accion not in clases_removidas]
         else:
             etiquetas = ""
@@ -336,7 +337,7 @@ class Juego:
         X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size=0.2, random_state=42, stratify=y
         )
-
+#////////////////////////////////////////  aqui esta el modelo /////////////////////////////////////////
         clf = RandomForestClassifier(
             n_estimators=50,
             max_depth=6,
@@ -349,8 +350,7 @@ class Juego:
         self.modelo = clf
         self.modelo_entrenado = True
 
-        sufijo = f" (se eliminó: {etiquetas})" if etiquetas else ""
-        return True, f"Random Forest entrenado. Accuracy test ≈ {acc:.3f}{sufijo}"
+        return True, f"Modelo entrenado. Accuracy test ≈ {acc:.3f}"
 
     def decision_auto_accion(self) -> int:
         """Devuelve ACCION_NADA / ACCION_SALTAR / ACCION_AGACHAR."""
