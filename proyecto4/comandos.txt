@@ -1,0 +1,8 @@
+pip install pymupdf faiss-cpu numpy tqdm requests
+
+ollama pull nomic-embed-text
+
+ollama pull llama3.2:3b
+
+comando para correr rag.py:
+python rag.py --docs ./docs --question "¿Qué dicen los reportes sobre los índices de violencia?"

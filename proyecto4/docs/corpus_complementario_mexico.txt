@@ -1,0 +1,708 @@
+DOCUMENTO: CORPUS COMPLEMENTARIO — VIOLENCIA Y SEGURIDAD PÚBLICA EN MÉXICO
+Diseñado para responder el Banco de Preguntas de Evaluación RAG (Q1–Q10)
+Fuentes: México Evalúa, INEGI, SESNSP, Integralia, IEP, Impunidad Cero,
+Universidad Iberoamericana, Crisis Group, Brookings Institution, InSight Crime,
+RIMISP, Scielo, CONEVAL, COPARMEX, Amnistía Internacional.
+Periodo de referencia: 2018–2026.
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN A — HOMICIDIOS DOLOSOS: DATOS ACTUALIZADOS Y DISTRIBUCIÓN
+(Responde Q1)
+═══════════════════════════════════════════════════════════════
+
+A.1 Las tres entidades con mayor índice de homicidios dolosos
+
+Conforme a las Estadísticas de Defunciones Registradas (EDR) publicadas por el INEGI
+el 8 de noviembre de 2024 —la fuente oficial más reciente con datos completos anuales—,
+las tres entidades federativas con el mayor número absoluto de homicidios registrados
+en el año 2023 son las siguientes:
+
+1. Guanajuato: 3,862 homicidios registrados en 2023.
+2. Estado de México: 2,942 homicidios registrados en 2023.
+3. Baja California: 2,653 homicidios registrados en 2023.
+
+Estas tres entidades, junto con Chihuahua (2,517) y Michoacán (1,886), concentran la
+mayoría de las defunciones por homicidio del país. En el extremo contrario, los estados
+con menos homicidios en 2023 fueron Baja California Sur (50), Yucatán (52) y Durango
+(92), que además son consistentemente los más pacíficos del país en términos relativos
+a su población (Fuente: INEGI, EDR 2023).
+
+Nota metodológica: los datos del INEGI se obtienen de registros de Oficialías del
+Registro Civil, Servicios Médicos Forenses y Agencias del Ministerio Público. Son
+distintos a las carpetas de investigación del SESNSP, que solo contabilizan denuncias
+formales. Ambas fuentes pueden divergir y presentan sus propias limitaciones
+(Fuente: MUCD, Atlas de Homicidios 2023).
+
+Para el año 2024, los datos preliminares del INEGI elevan la cifra nacional a 33,241
+homicidios, una tasa de 25.6 por cada 100,000 habitantes. El estado de Sinaloa registró
+el incremento más pronunciado ese año —61.8% respecto a 2023—, vinculado a la guerra
+interna del Cártel de Sinaloa tras la detención de Ismael "El Mayo" Zambada en julio
+de 2024 (Fuente: Integralia, febrero 2025; INEGI, EDR 2024).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN B — GRUPOS CRIMINALES EN TIERRA CALIENTE
+(Responde Q2)
+═══════════════════════════════════════════════════════════════
+
+B.1 Definición geográfica de Tierra Caliente
+
+La región conocida como Tierra Caliente abarca principalmente municipios de tres estados:
+Michoacán (incluyendo Apatzingán, Huetamo, La Huacana, Nueva Italia, Coalcomán y
+Zirandaro), Guerrero (incluyendo Tecpan de Galeana y municipios colindantes) y Estado
+de México. Es una zona estratégica para el tráfico de drogas, la producción de
+estupefacientes y el control de rutas de distribución hacia el norte del país y hacia
+los puertos del Pacífico (Fuente: Infobae, diciembre 2023; Proceso, febrero 2026).
+
+B.2 Organizaciones criminales identificadas en Tierra Caliente
+
+Las autoridades federales —incluyendo el gobierno federal y la Fiscalía General del
+Estado de Michoacán— han identificado los siguientes grupos como los principales
+actores del conflicto armado en Tierra Caliente:
+
+GRUPO 1 — Cártel Jalisco Nueva Generación (CJNG):
+El CJNG es considerado la organización criminal más poderosa con presencia en Tierra
+Caliente. InSight Crime lo identifica como uno de los cárteles con mayor alcance
+territorial del país, con presencia en más de 20 estados, incluyendo explícitamente
+Tierra Caliente (que abarca Michoacán, Guerrero y Estado de México). En agosto de 2024,
+una nueva facción vinculada al CJNG —denominada Cártel Michoacán Nueva Generación,
+producto de una alianza entre el CJNG y el grupo local Los Viagras— difundió un mensaje
+público asegurando controlar el 80% del estado de Michoacán y prometiendo eliminar a
+sus rivales (Fuente: Infobae, diciembre 2024; Milenio, 2026).
+
+GRUPO 2 — Los Viagras y aliados del CJNG:
+Los Viagras son una organización local michoacana que, tras múltiples realineamientos,
+desde mediados de 2025 opera como aliado del CJNG. Junto a ellos actúan células
+adheridas como Los Blancos de Troya y el Cártel de La Virgen. Sus actividades incluyen
+narcomenudeo, secuestro, extorsión y asesinato por encargo (Fuente: Contramuro /
+Milenio, octubre 2025).
+
+GRUPO 3 — Cárteles Unidos (coalición rival):
+Cárteles Unidos es una asociación criminal formada originalmente para resistir la
+expansión del CJNG en Michoacán. Está integrada principalmente por el Cártel de
+Tepalcatepec —liderado por Juan José Farías Álvarez, "El Abuelo"— y el Cártel de
+Los Reyes. Sus operaciones se concentran en la zona de Tierra Caliente y la costa
+michoacana (Fuente: Contramuro, octubre 2025).
+
+GRUPO 4 — Los Caballeros Templarios (remanentes):
+Los Caballeros Templarios son la organización decadente que dominó Michoacán
+hasta su parcial desmantelamiento en 2014-2015. Sus remanentes siguen activos,
+particularmente en municipios como Apatzingán, donde Jorge Luis Nolasco Guillén,
+"Cokis", es identificado como líder residual. Son enemigos tanto del CJNG como de sus
+aliados, y del ala del Cártel de Tepalcatepec (Fuente: Infobae, diciembre 2024).
+
+GRUPO 5 — La Familia Michoacana:
+La Familia Michoacana es otra organización con presencia histórica en la región.
+Aunque debilitada, mantiene operaciones en algunas zonas de Tierra Caliente. Junto con
+Los Caballeros Templarios, forma parte de los grupos que buscan resistir la expansión
+del CJNG (Fuente: Infobae, diciembre 2023).
+
+GRUPOS LOCALES MENORES:
+Además de los grupos principales, en Tierra Caliente se han identificado organizaciones
+más pequeñas, entre ellas el Cártel de Zicuirán, Los Correa, Los Reyes, Pueblos Unidos
+y células desertoras de La Familia Michoacana. Muchos de estos grupos nacieron como
+movimientos de autodefensa en 2013, pero fueron infiltrados por el crimen organizado
+(Fuente: Infobae, diciembre 2023; Contramuro, octubre 2025).
+
+B.3 Dinámica de conflicto reciente en Tierra Caliente
+
+El 27 de agosto de 2024, grupos armados vinculados al CJNG y a Los Caballeros
+Templarios se enfrentaron directamente en la región de Tierra Caliente de Michoacán.
+Los grupos quemaron al menos dos vehículos, bloquearon carreteras y emplearon drones
+artillados contra la población. Este tipo de ataques con drones —tecnología de guerra
+adoptada por el crimen organizado— es un rasgo distintivo de los grupos más poderosos
+que operan en la región (Fuente: El Financiero, agosto 2024).
+
+En octubre de 2024, un comando del grupo denominado Guardia Nueva Generación (GGN),
+vinculado al CJNG, incursionó en la cabecera municipal de Tecpan de Galeana, Guerrero,
+para atacar al grupo criminal Los Granados. El saldo en cuatro días fue de 34 integrantes
+del GGN muertos y 21 detenidos —la mayoría jóvenes migrantes de Guatemala y El
+Salvador—, lo que evidencia el reclutamiento transnacional de los grupos armados en
+la región (Fuente: Proceso, febrero 2026).
+
+Hasta 2023, en el territorio guerrerense de Tierra Caliente y sus alrededores, el mapa
+de seguridad del gobierno federal registraba al menos 16 cárteles regionales y células
+criminales dedicados a la explotación de recursos naturales, tráfico de drogas, extorsión
+y cobro de cuotas. Las organizaciones criminales de la zona también controlan la
+distribución de productos básicos como pollo, carne y cerveza, así como negocios de
+entretenimiento nocturno (Fuente: Proceso, febrero 2026).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN C — DESPLAZAMIENTO FORZADO INTERNO DURANTE EL ÚLTIMO SEXENIO
+(Responde Q3)
+═══════════════════════════════════════════════════════════════
+
+C.1 Cifras del desplazamiento forzado durante el sexenio 2018-2024
+
+El desplazamiento forzado interno por violencia del crimen organizado experimentó una
+escalada crítica durante el sexenio de López Obrador y los primeros meses del gobierno
+de Sheinbaum. Las cifras oficiales y de organizaciones civiles presentan la siguiente
+evolución:
+
+— 2024: Al menos 28,900 personas desplazadas internamente, según el informe del
+  Programa de Derechos Humanos de la Universidad Iberoamericana (PDH Ibero),
+  publicado en junio de 2025. Esto representa un aumento del 129% respecto a 2023.
+  El 79% de los desplazamientos fue causado directamente por violencia del crimen
+  organizado; el 20% restante por causas sociales o desastres naturales
+  (Fuente: PDH Ibero / Amnistía Internacional, 2025).
+
+— 2023: 12,623 personas desplazadas, según los mismos registros comparativos.
+
+— Acumulado histórico: Al 12 de noviembre de 2024, el Registro Nacional de Personas
+  Desaparecidas y No Localizadas (RNPDNO) reportó 117,906 personas desaparecidas
+  y no localizadas de forma acumulada desde que comenzó el registro sistemático
+  (Fuente: MUCD, Atlas de Homicidios 2023; Comisión Nacional de Búsqueda).
+
+C.2 Distribución territorial del desplazamiento en 2024
+
+Las entidades con mayor número de personas desplazadas en 2024 fueron:
+
+— Chiapas: 17,860 personas desplazadas en 20 eventos documentados, la mayoría
+  concentrados en comunidades fronterizas con Guatemala, donde la disputa por rutas
+  del narcotráfico generó un conflicto de múltiples dimensiones.
+— Sinaloa: 4,480 personas desplazadas, como consecuencia directa de la guerra
+  interna del Cártel de Sinaloa.
+— Michoacán: Desplazamientos intensificados durante el segundo semestre del año,
+  con participación activa de grupos criminales y dimensiones de violencia de género.
+(Fuente: PDH Iberoamericana, junio 2025)
+
+C.3 Desapariciones de menores vinculadas a violencia
+
+El Registro Nacional de Personas Desaparecidas contabilizó hasta 2024 un total de
+16,838 niñas, niños y adolescentes desaparecidos y no localizados. De estos, 2,785
+casos ocurrieron en los últimos 12 meses del periodo reportado. Las desapariciones
+pueden estar vinculadas con reclutamiento por grupos criminales, trata y explotación
+sexual. El Comité contra la Desaparición Forzada de la ONU ha documentado un aumento
+de desapariciones de menores desde los 12 años en los últimos años en México
+(Fuente: UNICEF México, 2024).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN D — CAUSAS SOCIOECONÓMICAS DE LA VIOLENCIA URBANA
+(Responde Q4)
+═══════════════════════════════════════════════════════════════
+
+D.1 Debate académico: pobreza, desigualdad y violencia
+
+La relación entre factores socioeconómicos y violencia en México es objeto de un debate
+académico que ha producido resultados complejos y en ocasiones contraintuitivos.
+
+Un estudio publicado en Scielo (Revista Estudios Sociológicos, COLMEX) que analizó
+modelos de regresión con datos estatales encontró que, cuando se consideran en conjunto,
+la incidencia de la pobreza y el promedio de escolaridad anulan su influencia estadística
+sobre la tasa delictiva. Los resultados contrarían la explicación más difundida: ni la
+desigualdad ni la pobreza, en sí mismas, desencadenan linealmente más delincuencia o
+violencia. Sin embargo, cuando se analizan de forma aislada (no en conjunto con otras
+variables), la pobreza y el nivel educativo sí explican entre el 23% y el 25.8% de las
+discrepancias estatales en la tasa delictiva, lo cual indica una relación parcial pero
+no determinante (Fuente: Scielo / Revista Estudios Sociológicos, 2019).
+
+D.2 Factores estructurales identificados por los autores
+
+Pese al debate sobre pobreza y desigualdad, México Evalúa, Integralia, la Universidad
+Iberoamericana y otras instituciones académicas y de análisis identifican de forma
+consistente los siguientes factores como causas estructurales de la violencia:
+
+a) CORRUPCIÓN E IMPUNIDAD INSTITUCIONAL:
+La corrupción política y la ineficiencia administrativa son identificados por el Instituto
+para la Economía y la Paz (IEP) como "factores clave que impulsan la violencia en México,
+ya que contribuyen a la impunidad y limitan los recursos disponibles para combatir el
+crimen" (Fuente: IEP / Proceso, mayo 2025). John Bailey (2014) ha analizado cómo
+corrupción, crimen organizado y violencia se retroalimentan, atrapando al país en una
+trampa de inseguridad que debilita la democracia y el desarrollo social (Fuente: UNIR
+México, análisis de desigualdad).
+
+b) FALTA DE CAPACIDADES INSTITUCIONALES:
+México Evalúa señala la "falta de equipamiento y capacidades técnicas de policías y
+fiscalías" como uno de los tres factores estructurales principales, junto a la corrupción
+y la insuficiencia de oportunidades formales. La ausencia de un modelo profesional de
+policía civil de proximidad impide la inteligencia territorial necesaria para anticipar y
+prevenir la violencia (Fuente: México Evalúa / Nexos, enero 2025).
+
+c) INSUFICIENCIA DE OPORTUNIDADES FORMALES:
+La falta de oportunidades laborales y educativas genera motivaciones individuales para
+incorporarse al mundo criminal, especialmente en jóvenes. El gobierno de López Obrador
+implementó el programa "Sembrando Vida" y el programa de becas "Jóvenes Construyendo
+el Futuro" como respuesta a este diagnóstico, aunque su efectividad en la reducción de
+la violencia no ha sido científicamente demostrada (Fuente: México Evalúa / CNN, 2024).
+
+d) GOBERNABILIDAD CRIMINAL Y PÉRDIDA DE CONTROL TERRITORIAL:
+En múltiples regiones mexicanas, el crimen organizado se ha constituido como un sistema
+de poder que atraviesa la economía, la política y la vida cotidiana. Este proceso de
+"gobernabilidad criminal crónica" —identificado por investigadores de la Universidad
+Nacional Autónoma de México y publicado en Scielo— implica que en numerosos territorios
+las fuerzas del Estado deben negociar su propia presencia, lo que hace prácticamente
+imposible construir estados de derecho efectivos (Fuente: Scielo / Revista Mexicana de
+Sociología, 2024).
+
+e) ECONOMÍA CRIMINAL INTEGRADA:
+El crimen organizado no es solo un problema de seguridad pública, sino una forma de
+organización económica. Los grupos delictivos en regiones como Tierra Caliente controlan
+la economía local, incluyendo la distribución de alimentos, el mercado inmobiliario y los
+negocios de entretenimiento. La integración del narcotráfico, la minería ilegal, los
+agronegocios y el tráfico de personas en un mismo sistema criminal dificulta estrategias
+de intervención simples (Fuente: Scielo / Revista Mexicana de Sociología, 2024; Proceso,
+febrero 2026).
+
+f) DESIGUALDAD ESTRUCTURAL PROFUNDA:
+En 2022, el 36.3% de la población mexicana vivía en condiciones de pobreza (46.8 millones
+de personas), según el CONEVAL. Las brechas son especialmente pronunciadas en zonas
+rurales: el 20% de los jóvenes rurales se encuentra en pobreza extrema, frente a solo
+el 4% en zonas urbanas. El 73.1% de las mujeres hablantes de lengua indígena en zonas
+rurales es pobre (Fuente: IFAD / CONEVAL, 2022).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN E — ESTRATEGIAS DE SEGURIDAD: MILITARIZACIÓN VS. PREVENCIÓN SOCIAL
+(Responde Q5)
+═══════════════════════════════════════════════════════════════
+
+E.1 La estrategia "Abrazos, no balazos" (2018-2024)
+
+Durante el sexenio de Andrés Manuel López Obrador (2018-2024), la política de seguridad
+se articuló en torno al principio de "Abrazos, no balazos", que priorizó la atención a
+las causas estructurales de la violencia (pobreza, desigualdad, falta de oportunidades)
+sobre el enfrentamiento directo al crimen organizado. Esta estrategia incluyó:
+— Programas sociales para jóvenes como "Sembrando Vida" y "Jóvenes Construyendo
+  el Futuro", orientados a alejar a los jóvenes de la delincuencia.
+— Diálogo comunitario y uso "proporcional" de la fuerza.
+— En el ámbito retórico, la renuncia al modelo de "guerra contra las drogas" impulsado
+  por Felipe Calderón (2006-2012).
+(Fuente: Seguridad Vía Civil / Ibero, agosto 2022; CNN, octubre 2024)
+
+Sin embargo, la estrategia fue ampliamente cuestionada. En la práctica, el gobierno de
+López Obrador transfirió creciente control sobre la seguridad pública al Ejército —la
+misma institución que protagonizó la "guerra contra las drogas" del sexenio de Calderón—.
+Armando Vargas, de Integralia Consultores, señaló que "no hay pruebas científicas que
+sustenten la efectividad de sus políticas", aunque también reconoció que el expresidente
+"heredó altos índices de homicidios dolosos" (Fuente: CNN, octubre 2024).
+
+El propio general Orduña Campos, entonces comandante de la Guardia Nacional, aclaró
+que "'Abrazos, no balazos' no es una estrategia", señalando que el mensaje tenía un
+destinatario distinto a las autoridades de seguridad. En los hechos, la GN es más activa
+en los estados donde la violencia empeoró durante ese sexenio (Fuente: Seguridad Vía
+Civil / Ibero, agosto 2022).
+
+E.2 La estrategia de militarización progresiva
+
+En paralelo al discurso preventivo, México vivió durante el sexenio de López Obrador una
+militarización creciente de la seguridad pública. La Guardia Nacional, creada en 2019
+con mandato constitucional civil, fue integrada a la Secretaría de la Defensa Nacional
+(SEDENA) durante la administración de Claudia Sheinbaum, en octubre de 2024.
+
+Los datos de militarización revelan:
+— En 2024, el uso de la fuerza letal por las Fuerzas Armadas (694 eventos, sin contar
+  la Marina) alcanzó niveles no vistos desde 2012 (828 eventos), el año de mayor
+  intensidad de la "guerra contra las drogas".
+— 2024 marcó un máximo histórico en personas civiles detenidas por miembros de la
+  SEDENA.
+— Las Fuerzas Armadas aseguraron menos armas de fuego en 2024 que en 2023,
+  lo que sugiere que el aumento en uso de la fuerza no se tradujo necesariamente
+  en mejores resultados operativos.
+(Fuente: Seguridad Vía Civil / Ibero, septiembre 2025)
+
+El gasto en seguridad pública y en el sistema de justicia penal en 2024 fue solo del
+0.7% del PIB, menos de la mitad del promedio de América Latina, a pesar del aumento
+de 39% en el gasto militar reportado por el IEP (Fuente: IEP / Proceso, mayo 2025).
+
+E.3 La nueva estrategia (2024-): cuatro ejes bajo Sheinbaum
+
+A partir del 1 de octubre de 2024, el nuevo gobierno de Claudia Sheinbaum presentó
+una "Estrategia Nacional de Seguridad" de cuatro ejes bajo la coordinación del
+Secretario de Seguridad Omar García Harfuch:
+1. Atención a las causas estructurales (pobreza, desigualdad, falta de oportunidades).
+2. Prevención social del delito.
+3. Inteligencia policial y coordinación institucional.
+4. Presencia física en territorio.
+
+El gobierno anunció que no busca el combate violento al crimen organizado, rechazando
+explícitamente la "guerra contra el narco" de Calderón y las "ejecuciones extrajudiciales".
+Al mismo tiempo, la incorporación de la GN a la SEDENA y el aumento del uso de la
+fuerza letal plantean interrogantes sobre la coherencia real entre el discurso preventivo
+y la práctica operativa (Fuentes: CNN, octubre 2024; Seguridad Vía Civil, septiembre 2025).
+
+En el terreno de la prevención, el gobierno implementó 64 "Territorios de Paz", zonas
+geográficas seleccionadas por sus altos índices de factores de riesgo (delincuencia,
+reincidencia juvenil, desocupación, pobreza) para intervención focalizada. Se identificaron
+367 situaciones emergentes y el avance en su atención alcanzó el 48%
+(Fuente: Informe de Gobierno México, 2025).
+
+E.4 Discrepancias entre enfoques: síntesis del debate
+
+El principal debate documentado en los textos académicos y de análisis es el siguiente:
+
+La militarización ofrece visibilidad, desincentivos a corto plazo para el crimen y capacidad
+de respuesta operativa inmediata, pero no ataca las causas estructurales, genera riesgos
+de violaciones de derechos humanos, y tiende a desplazar —no eliminar— a los grupos
+criminales. La prevención social reconoce las causas de fondo pero requiere horizontes
+temporales largos para producir resultados, y su efectividad es difícil de medir con
+las metodologías disponibles. México ha intentado combinar ambos enfoques sin abandonar
+completamente ninguno, lo que algunos analistas describen como una estrategia "mixta"
+que en la práctica puede carecer de coherencia o prioridades claras (Fuentes: Crisis Group,
+Informe N°106, mayo 2024; Seguridad Vía Civil; CNN).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN F — EXTORSIÓN: EVOLUCIÓN Y SECTORES MÁS AFECTADOS
+(Responde Q6 — versión ampliada para evaluación RAG)
+═══════════════════════════════════════════════════════════════
+
+F.1 Evolución de la tasa de extorsión a nivel nacional
+
+La extorsión —incluyendo el cobro de piso— es uno de los delitos con tendencia más
+preocupante en México. Los datos disponibles muestran la siguiente evolución:
+
+— Crecimiento en una década: La extorsión registrada creció 61.2% en los últimos
+  diez años, según COPARMEX (Fuente: COPARMEX, Monitor de Seguridad, julio 2025).
+— 2023: Se cometieron 4.9 millones de delitos de extorsión según el Congreso,
+  y 747,000 delitos de extorsión específicamente contra unidades económicas según
+  la ENVE del INEGI. En 18 estados, la extorsión fue el delito más frecuente contra
+  empresas y comercios. Las empresas gastaron 67,200 millones de pesos en medidas
+  preventivas (Fuente: INEGI, ENVE 2024; La Jornada, agosto 2025).
+— 2024: Entre 2023 y 2024, la tasa a nivel nacional se redujo apenas 0.2%. La tasa
+  de extorsión aumentó en 15 entidades federativas durante ese periodo
+  (Fuente: Integralia, febrero 2025).
+— Primer semestre 2025: 5,887 víctimas registradas, el nivel más alto desde que
+  existe registro. Incremento de 6.9% respecto al mismo periodo de 2024, y de 83%
+  en una década (Fuente: COPARMEX, octubre 2025).
+
+Los estados con mayor tasa de extorsión por cada 100,000 habitantes en 2024 fueron:
+Estado de México (19.52), Colima (18.10), Guanajuato (15.85), Morelos (15.75) y
+Nuevo León (13.73) (Fuente: SESNSP / Congreso, octubre 2025).
+
+F.2 Sectores económicos más afectados
+
+Según la Encuesta Nacional de Victimización de Empresas (ENVE 2024) del INEGI:
+— Sector Comercio: 31.5% de sus unidades fueron víctimas de algún delito. La
+  extorsión fue el delito más frecuente en 18 estados para este sector. Los negocios
+  medianos y grandes son los más victimizados en términos relativos.
+— Sector Servicios: 24.2% de sus unidades victimizadas; mayor concentración de
+  delitos por unidad (2.4 por empresa afectada).
+— Sector Manufactura: 21.6% de sus unidades victimizadas.
+
+La extorsión genera pérdidas totales de 124,300 millones de pesos anuales para empresas,
+equivalentes al 0.51% del PIB (Fuente: INEGI, ENVE 2024; Chanboox, abril 2026).
+
+El cobro de piso —modalidad de extorsión recurrente donde grupos criminales exigen
+pagos periódicos a negocios a cambio de "protección"— es particularmente prevalente
+en zonas bajo control de grupos criminales organizados, y tiende a expandirse conforme
+estos consolidan su presencia territorial.
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN G — DIFERENCIAS ENTRE VIOLENCIA RURAL Y URBANA
+(Responde Q7)
+═══════════════════════════════════════════════════════════════
+
+G.1 Invisibilización de la violencia rural
+
+Uno de los hallazgos más relevantes de la investigación sobre violencia en zonas rurales
+es precisamente su invisibilización. Los estudios académicos señalan que la violencia rural
+ha permanecido "invisibilizada frente a la violencia acentuada presente en algunos centros
+urbanos del país, muchas veces sobredimensionada o resaltada por los medios de
+comunicación, y que ha concentrado tanto la estrategia de combate y contención al crimen
+organizado como la política de prevención social de la violencia"
+(Fuente: RIMISP, Documento de Trabajo sobre Violencia en Municipios Rurales).
+
+G.2 Tipos de violencia específicos de zonas rurales
+
+Las zonas rurales de México presentan patrones de violencia distintos a los urbanos:
+
+a) VIOLENCIA VINCULADA AL CONTROL TERRITORIAL Y RECURSOS NATURALES:
+En zonas rurales, el conflicto criminal se enfoca en el control de tierras, recursos
+naturales (agua, bosques, minerales), rutas de paso y la producción de narcóticos.
+Detrás de la inseguridad rural se encuentran: el accionar de grupos delictivos, conflictos
+religiosos y políticos, diferendos por la propiedad y uso de la tierra, y controversias por
+la apropiación de recursos públicos (Fuente: Meridiano, análisis violencia municipal, 2023).
+
+b) DESPOJO AGRARIO:
+En múltiples regiones rurales, el crimen organizado opera en asociación con intereses
+económicos que buscan el despojo de tierras comunales y ejidales. El exterminio indirecto
+—mediante la destrucción de la base material de subsistencia de comunidades— se
+materializa a través del despojo agrario y de los recursos naturales (Fuente: Scielo /
+análisis comparativo México-Brasil, 2004; CCMSS, septiembre 2024).
+
+c) RELACIÓN INVERSA ENTRE POBREZA Y VIOLENCIA LETAL EN MUNICIPIOS RURALES:
+De manera contraintuitiva, los estudios de violencia en municipios rurales mexicanos
+encontraron que "a mayor pobreza es menor la violencia letal que se registra (-0.213),
+lo mismo que con las lesiones dolosas (-0.307)". Esto sugiere que la violencia letal
+en zonas rurales no sigue el mismo patrón que en zonas urbanas, y que su explicación
+requiere marcos analíticos distintos (Fuente: RIMISP, Documento de Trabajo; Meridiano, 2023).
+
+G.3 Tipos de violencia específicos de zonas urbanas y metropolitanas
+
+En zonas metropolitanas, la violencia tiende a concentrarse en modalidades como:
+— Violencia criminal no letal de alta frecuencia: robos, asaltos, extorsiones
+  telefónicas y presenciales.
+— Mercados de drogas al menudeo y disputas territoriales entre células criminales.
+— Tres grandes agrupaciones de violencia criminal no letal han sido identificadas:
+  noroeste (Baja California y Sonora), noreste (Nuevo León y Coahuila) y región central
+  (Puebla, Valle de México, San Luis Potosí y Aguascalientes)
+  (Fuente: México Evalúa / Nexos, enero 2025).
+
+La Encuesta Nacional de Seguridad Urbana (ENSU) del INEGI —que es la fuente de
+referencia para percepción de inseguridad— solo cubre zonas urbanas, lo que implica
+que los datos sobre inseguridad en zonas rurales son sistemáticamente insuficientes
+y constituyen un vacío estructural en el conocimiento del fenómeno
+(Fuente: RIMISP; Meridiano, 2023).
+
+G.4 Violencia contra comunidades indígenas y campesinas
+
+Las comunidades indígenas y rurales enfrentan formas de violencia asociadas a la
+defensa de sus territorios frente a megaproyectos y actividades extractivas. Organizaciones
+como el Consejo Civil Mexicano para la Silvicultura Sostenible (CCMSS) documentan
+amenazas, agresiones y desplazamientos vinculados a proyectos como el Tren Maya y el
+Corredor Interoceánico, que afectan a 13 pueblos indígenas. En estas zonas confluyen
+la violencia del crimen organizado, los intereses económicos de élites locales y la
+violencia institucional del Estado (Fuente: CCMSS, septiembre 2024).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN H — DISCREPANCIAS ENTRE ONGs Y FUENTES GUBERNAMENTALES EN EL REGISTRO DE VÍCTIMAS
+(Responde Q8)
+═══════════════════════════════════════════════════════════════
+
+H.1 Las dos grandes fuentes oficiales y sus diferencias
+
+El registro de homicidios en México opera con dos sistemas paralelos que producen
+cifras distintas:
+
+FUENTE 1 — SESNSP (carpetas de investigación):
+Contabiliza únicamente las denuncias formales iniciadas por las fiscalías estatales.
+Es de publicación mensual. Al tratarse de cifras derivadas de denuncias formales, "estos
+registros ofrecen una visión parcial de la magnitud real del fenómeno delictivo, debido a
+la cifra negra asociada a la no denuncia" (Fuente: México Evalúa, VAP Anual 2025). Las
+fiscalías estatales son las responsables de la veracidad de los datos, y existe
+variabilidad en la calidad del registro entre entidades.
+
+FUENTE 2 — INEGI (Estadísticas de Defunciones Registradas):
+Se obtiene de Servicios Médicos Forenses, Registros Civiles y Ministerios Públicos.
+Es más comprehensiva metodológicamente, pero se publica con un año de rezago,
+lo que limita su utilidad para toma de decisiones en tiempo real. El propio INEGI
+reconoce la posibilidad de subregistro, particularmente en defunciones cuya
+intencionalidad no pudo ser determinada (Fuente: MUCD, Atlas de Homicidios 2023).
+
+H.2 Denuncias de subregistro por organizaciones civiles y activistas
+
+La discrepancia más grave documentada es la denuncia formal de subregistro deliberado.
+En diciembre de 2023, Adrián LeBarón, Bryan LeBarón y Cecilia Patricia Flores —madre
+buscadora de Sonora y fundadora de Madres Buscadoras— presentaron una denuncia
+ante la Fiscalía General de la República (FGR) por probable manipulación del registro
+oficial de homicidios y desapariciones. La denuncia argumentó que "el gobierno federal
+ha mentido respecto al número de muertos que tiene registrados y los que ocurren en
+los hechos". Bryan LeBarón sintetizó la acusación: "El crimen mata una vez, pero el
+gobierno los desaparece de los registros, lo cual es un segundo crimen" (Fuente: Proceso,
+diciembre 2023).
+
+Como evidencia, citaron el caso de los cinco jóvenes desaparecidos el 12 de agosto de
+2023 en Lagos de Moreno, Jalisco. A pesar de que el caso generó amplia cobertura
+mediática, comunicados oficiales y movilización social, los jóvenes no aparecen en el
+Registro Nacional de Personas Desaparecidas y No Localizadas en la fecha de su
+desaparición ni en fechas subsecuentes (Fuente: Proceso, diciembre 2023).
+
+H.3 La posición gubernamental
+
+La titular del SESNSP, Marcela Figueroa Franco, descartó de forma generalizada la
+existencia de subregistro en los homicidios, argumentando que existe un sistema de
+verificación cruzada: "Tenemos un monitoreo a través de las oficinas regionales del
+Centro Nacional de Inteligencia, que revisan cuántos homicidios hubo y lo contrastan
+con lo que la fiscalía reporta. Si vemos algo en medios que no está contabilizado,
+hablamos ese mismo día con el fiscal". Sin embargo, reconoció que ciertas "conductas
+delictivas estaban invisibilizadas dentro de grupos generales de delitos", razón por la
+cual el gobierno abrió en 2026 las cifras de víctimas de 79 delitos específicos con
+mayor desagregación (Fuente: Milenio, marzo 2026).
+
+H.4 Discrepancias en el registro de personas desaparecidas
+
+El RNPDNO también ha sido objeto de cuestionamientos. La denuncia de las madres
+buscadoras señaló que "existe una orden de crear un subregistro de víctimas", y que
+en casos de dominio público no se encontraban contabilizadas las desapariciones
+en el sistema oficial. A partir de febrero de 2026, el SESNSP publicará información
+a través del nuevo Registro Nacional de Incidencia Delictiva, con mayor desagregación
+y supervisión federal sobre la calidad de los registros de los ministerios públicos
+(Fuente: México Evalúa, VAP Anual 2025; Milenio, marzo 2026).
+
+H.5 El problema estructural del subregistro por no denuncia
+
+Más allá del debate sobre la manipulación deliberada, existe un problema estructural
+de subregistro que no es impugnable: la cifra negra. En 2024, el 93.2% de los 33.5
+millones de delitos estimados por la ENVIPE no fue denunciado ni dio lugar a una carpeta
+de investigación. Solo el 9.6% de los delitos se denunció, y el Ministerio Público solo
+abrió carpeta en el 70.5% de las denuncias recibidas. El resultado es que, según
+México Evalúa, el 99.23% de todos los delitos cometidos en México en 2024 no terminó
+con ninguna sanción efectiva (Fuentes: INEGI, ENVIPE 2025; México Evalúa /
+Radiografía de la Impunidad 2024, marzo 2026).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN I — VACÍOS DE INFORMACIÓN Y OBSTÁCULOS PARA MEDIR LA VIOLENCIA REAL
+(Responde Q10)
+═══════════════════════════════════════════════════════════════
+
+I.1 La cifra negra como principal obstáculo sistémico
+
+El principal obstáculo para medir la violencia real en México, identificado de manera
+coincidente por INEGI, México Evalúa, Impunidad Cero y múltiples organizaciones de la
+sociedad civil, es la "cifra negra" o cifra oculta: el porcentaje de delitos que no se
+denuncia y sobre el cual no existe registro formal alguno.
+
+Los datos más recientes disponibles muestran el alcance de este problema:
+— En 2024, el 93.2% de los 33.5 millones de delitos estimados no fue denunciado
+  ni derivó en carpeta de investigación (Fuente: INEGI, ENVIPE 2025).
+— Los delitos con cifra negra más alta en 2023 fueron el fraude (97% sin denunciar)
+  y la extorsión (96.7% sin denunciar) (Fuente: Milenio / ENVIPE 2024).
+— Para la extorsión específicamente, entre el 96% y el 97% de los eventos no se
+  denuncian, según análisis de largo plazo (Fuente: Chanboox, abril 2026).
+— El resultado agregado es que el 99.23% de todos los delitos no termina con ninguna
+  sanción efectiva, lo que convierte a México en uno de los países con mayor
+  impunidad efectiva del mundo (Fuente: México Evalúa, marzo 2026).
+
+I.2 Razones estructurales de la no denuncia
+
+La ENVIPE identifica las siguientes razones por las que las víctimas no denuncian:
+a) Causas atribuibles a la autoridad: miedo a ser extorsionado al denunciar, pérdida de
+   tiempo, trámites largos y difíciles, desconfianza en las autoridades, malas experiencias
+   anteriores.
+b) Otras causas: miedo al agresor, percepción de que el delito fue de poca importancia,
+   o falta de pruebas.
+
+La percepción social de impunidad refuerza este círculo vicioso. En 2024, el 77% de los
+mexicanos consideró que el esclarecimiento de los delitos está condicionado a la
+capacidad de ejercer presión política o mediática. El 63% consideró que los responsables
+de un delito son llevados ante el juez solo "algunas veces", y en 2023, más del 60%
+opinó que los responsables "nunca o casi nunca" son llevados ante un juez
+(Fuente: Impunidad Cero, Percepciones de Impunidad 2024 y 2023).
+
+I.3 Limitaciones metodológicas de las fuentes oficiales
+
+Además de la cifra negra, los investigadores y organismos de análisis identifican las
+siguientes limitaciones específicas:
+
+a) REZAGO EN LA PUBLICACIÓN DE DATOS:
+Las Estadísticas de Defunciones Registradas (EDR) del INEGI se publican con
+aproximadamente un año de rezago, lo que imposibilita su uso en tiempo real para
+decisiones de política pública (Fuente: MUCD, Atlas de Homicidios 2023).
+
+b) DEFUNCIONES CON INTENCIONALIDAD NO DETERMINADA:
+En 2024, el 50% de las defunciones violentas o accidentales con causa indeterminada
+ocurrieron solo en cinco estados (Baja California, Jalisco, Nuevo León, Veracruz y
+Chihuahua). Estas defunciones pueden representar homicidios no clasificados como
+tales, lo que sugiere una subestimación adicional (Fuente: MUCD, Atlas de Homicidios 2023).
+
+c) CALIDAD DESIGUAL DEL REGISTRO ENTRE FISCALÍAS:
+Las fiscalías estatales son las responsables de la veracidad de los datos del SESNSP,
+pero la calidad del registro varía considerablemente entre entidades. Algunos estados
+muestran anomalías estadísticas que los analistas interpretan como posibles indicadores
+de subregistro o de inconsistencias metodológicas. El estudio de Radiografía de la
+Impunidad de México Evalúa (2026) tuvo que excluir cinco estados —Baja California Sur,
+Sonora, Tabasco, Chiapas e Hidalgo— por "inconsistencias o datos incompletos"
+(Fuente: México Evalúa, Radiografía de Impunidad 2024).
+
+d) AUSENCIA DE DATOS SOBRE VIOLENCIA RURAL:
+La Encuesta Nacional de Seguridad Urbana (ENSU) solo cubre zonas urbanas, creando
+un vacío sistemático en el conocimiento de la violencia en municipios rurales. Los
+investigadores del RIMISP señalan que la violencia rural es una realidad que "se ha
+mantenido invisibilizada frente a la violencia presente en centros urbanos"
+(Fuente: RIMISP; Meridiano, 2023).
+
+e) FRAGMENTACIÓN INSTITUCIONAL EN EL REGISTRO DE DESAPARECIDOS:
+El Registro Nacional de Personas Desaparecidas y No Localizadas (RNPDNO) ha sido
+cuestionado por registrar de forma incompleta casos de alto perfil mediático. La
+Comisión Nacional de Búsqueda enfrentó periodos de inoperatividad institucional
+—incluyendo 16 meses sin Consejo Nacional Ciudadano activo en 2024— que afectaron
+la calidad y continuidad del registro (Fuente: Amnistía Internacional, informe 2024).
+
+f) METODOLOGÍA NO COMPARABLE ENTRE PERIODOS:
+En el caso del consumo de drogas —relevante para entender la demanda que alimenta
+la economía criminal—, el gobierno federal modificó la metodología de la Encuesta
+Nacional de Consumo de Drogas (ENCODAT) en 2024, lo que hace imposible comparar
+los resultados con levantamientos anteriores. Lisa Sánchez, directora ejecutiva de
+México Unido contra la Delincuencia, señaló: "No va a permitirnos realmente determinar
+si durante este sexenio hubo aumentos o disminuciones o estabilizaciones en el consumo"
+(Fuente: Grupo Animal, abril 2024).
+
+I.4 El problema de la impunidad como retroalimentador del subregistro
+
+El bajo porcentaje de delitos que se resuelven —solo el 0.77% de todos los delitos
+cometidos, según México Evalúa— crea un círculo vicioso: las víctimas perciben que
+denunciar no produce resultados, lo que aumenta la cifra negra, lo que a su vez impide
+que las autoridades conozcan la magnitud real del problema y diseñen respuestas
+efectivas. Los estados con mayor impunidad de delitos denunciados en 2024 son Jalisco
+(97.80%), Morelos (97.61%), Guerrero (96.59%), Estado de México (96.03%) y
+Ciudad de México (96.01%) (Fuente: México Evalúa, Proceso, marzo 2026).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN J — NOTA SOBRE LÍMITES DEL CORPUS (PARA MITIGACIÓN DE ALUCINACIONES)
+═══════════════════════════════════════════════════════════════
+
+J.1 Temas cubiertos en este corpus
+
+Este segundo documento cubre, en adición al primer corpus, las siguientes dimensiones:
+— Grupos criminales específicos en Tierra Caliente (Q2)
+— Desplazamiento forzado interno con cifras por año (Q3)
+— Causas socioeconómicas de la violencia: debate académico y factores estructurales (Q4)
+— Estrategias de seguridad: militarización vs. prevención social, comparación de enfoques (Q5)
+— Extorsión: evolución y sectores (Q6 ampliado)
+— Diferencias entre violencia rural y urbana (Q7)
+— Discrepancias ONGs vs. gobierno en registro de víctimas (Q8)
+— Vacíos de información y subregistros identificados por los autores del corpus (Q10)
+
+J.2 Temas explícitamente AUSENTES en ambos documentos del corpus
+
+Los dos documentos de investigación que conforman el corpus completo NO contienen
+ninguna información sobre los siguientes temas. Cualquier consulta en estas áreas debe
+ser respondida por el tutor indicando que la información no está disponible en el corpus:
+
+— Sistema educativo mexicano en cualquier nivel (básico, medio superior, superior).
+— Tasas de deserción escolar o abandono educativo, en zonas de conflicto o fuera de ellas.
+— Rendimiento académico, cobertura educativa, ausentismo estudiantil.
+— Impacto de la violencia sobre indicadores educativos (Q9 del banco de evaluación).
+— Presupuesto educativo o gasto en educación como variable independiente.
+— Salud mental de la población en zonas de violencia, más allá de menciones
+  incidentales a efectos psicológicos en víctimas de extorsión.
+— Migración internacional (solo se menciona migración interna/desplazamiento).
+— Datos electorales desagregados más allá de la mención a 889 víctimas de
+  violencia política en el proceso 2023-2024.
+
+La pregunta Q9 del banco de evaluación ("¿Qué impacto específico tiene la violencia
+documentada sobre la tasa de deserción escolar en las zonas de alto conflicto?") es
+un caso de prueba diseñado para verificar si el sistema RAG reconoce sus propios
+límites. La respuesta correcta, basada estrictamente en el corpus, es que el corpus
+no contiene datos sobre deserción escolar ni sobre el sistema educativo, y que por lo
+tanto no es posible responder esta pregunta con base en los documentos disponibles.
+Cualquier respuesta que proporcione cifras o relaciones causales entre violencia y
+deserción escolar sin citar documentos específicos del corpus debe ser considerada
+una alucinación del modelo.
+
+═══════════════════════════════════════════════════════════════
+FUENTES CITADAS EN ESTE DOCUMENTO
+═══════════════════════════════════════════════════════════════
+
+- INEGI: EDR 2023 y 2024; ENVIPE 2024 y 2025; ENVE 2024; ENSU (varias ediciones)
+- SESNSP: Incidencia Delictiva del Fuero Común 2024; datos de carpetas de investigación
+- México Evalúa: Radiografía de la Impunidad 2024 (marzo 2026); VAP Anual dic. 2025;
+  Violencia Intencional y Asedio del Crimen Organizado 2024 (Nexos, enero 2025)
+- Integralia Consultores: Reporte Anual Delitos 2024 (febrero 2025)
+- Instituto para la Economía y la Paz (IEP): México Peace Index 2025 (mayo 2025)
+- Impunidad Cero: Percepciones de Impunidad 2023 y 2024
+- Universidad Iberoamericana (PDH / Seguridad Vía Civil): Informe Desplazamiento 2024;
+  análisis Abrazos no Balazos (2022); 2025: Nueva Ola de Militarización (sept. 2025)
+- MUCD (México Unido contra la Delincuencia): Atlas de Homicidios 2023
+- Comisión Nacional de Búsqueda de Personas: RNPDNO, noviembre 2024
+- UNICEF México: Violencia Armada 2024
+- Amnistía Internacional: Informe México 2024-2025; Informes de seguimiento 2025-2026
+- Infobae México: Grupos criminales 2024 (diciembre 2024); Tierra Caliente (diciembre 2023)
+- El Financiero: Tierra Caliente / CJNG (agosto 2024; diciembre 2024)
+- Proceso: Lagos de Moreno / subregistro (diciembre 2023); CJNG Guerrero (feb. 2026);
+  IEP PIB (mayo 2025); Impunidad (marzo 2026)
+- Milenio: CJNG estados de operación (2026); impunidad ENVIPE (septiembre 2024);
+  cifras víctimas 79 delitos (marzo 2026)
+- Contramuro: cárteles Tierra Caliente Michoacán (octubre 2025)
+- RIMISP: Violencia en Municipios Rurales (Documento de Trabajo)
+- Meridiano: Violencia en municipios rurales (febrero 2023)
+- CCMSS: Violencia contra pueblos originarios (septiembre 2024)
+- Scielo / Revista Mexicana de Sociología: Crimen organizado y políticas de seguridad
+  en México (2024)
+- Scielo / Revista Estudios Sociológicos COLMEX: Educación, pobreza y delincuencia (2019)
+- Crisis Group: El laberinto de los generales: crimen y militares en México, Informe
+  N°106 (mayo 2024)
+- Brookings Institution: Criminal violence, politics and state capture in Michoacan
+- CNN en Español: Estrategia Sheinbaum (octubre 2024); homicidios sexenio AMLO (2024)
+- CONEVAL: datos de pobreza 2022
+- COPARMEX: Monitor de Seguridad 2024-2025
+- Chanboox: Extorsión en México crece 61.2% en una década (abril 2026)
+- Grupo Animal: ENCODAT metodología (abril 2024)
+- Insight Crime: Tierra Caliente CJNG (diciembre 2024); costo violencia México (mayo 2025)

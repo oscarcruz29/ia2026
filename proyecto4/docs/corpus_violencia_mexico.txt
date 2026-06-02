@@ -1,0 +1,443 @@
+DOCUMENTO: INFORME DE INVESTIGACIÓN — VIOLENCIA Y SEGURIDAD PÚBLICA EN MÉXICO
+Fuentes: INEGI (EDR, ENVIPE, ENVE), SESNSP, Instituto para la Economía y la Paz (IEP),
+México Evalúa, Integralia Consultores, COPARMEX, Amnistía Internacional,
+UNICEF México, Universidad Iberoamericana (PDH), Insight Crime.
+Periodo de referencia: 2018-2025.
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 1 — HOMICIDIOS DOLOSOS: MAGNITUD Y DISTRIBUCIÓN TERRITORIAL
+═══════════════════════════════════════════════════════════════
+
+1.1 Cifras nacionales y tendencia histórica
+
+En 2023, el Instituto Nacional de Estadística y Geografía (INEGI) registró 32,252 homicidios
+en México a través de las Estadísticas de Defunciones Registradas (EDR). Esta cifra
+representa la más baja dentro del sexenio 2018-2024 y equivale a una tasa de 24.9 homicidios
+por cada 100,000 habitantes. Para 2024, la cifra preliminar aumentó a 33,241 homicidios,
+con una tasa de 25.6 por cada 100,000 habitantes, superando levemente el dato definitivo
+de 2023 (Fuente: INEGI, EDR 2024, agosto 2025).
+
+El promedio diario de homicidios dolosos, de acuerdo con datos del SESNSP, ha mostrado
+una tendencia descendente desde su punto máximo: en febrero de 2019 se registraban más
+de 100 homicidios al día, mientras que en octubre de 2024 el promedio fue de 83 homicidios
+diarios, lo que representa una reducción de 17.3% en ese periodo. En términos anuales,
+el promedio diario fue de 97.8 en 2021, 91.2 en 2022 y 88.4 en 2023 (Fuente: SESNSP,
+noviembre 2024).
+
+Durante el gobierno de López Obrador (1 de diciembre de 2018 al 30 de noviembre de 2024),
+el SESNSP acumuló 166,193 víctimas de homicidio doloso, un incremento del 21% respecto
+al total del sexenio de Peña Nieto (137,286 víctimas), constituyendo el periodo con mayor
+número de homicidios registrado desde que existen estadísticas sistemáticas en México
+(Fuente: CNN en Español / SESNSP, enero 2024).
+
+La tasa nacional de homicidios en la última década aumentó un 55%, pasando de 15 a 23
+muertes por cada 100,000 habitantes. Según el Instituto para la Economía y la Paz (IEP),
+este incremento se explica principalmente por una mayor actividad de los cárteles del
+narcotráfico: los asesinatos vinculados al crimen organizado se multiplicaron por seis,
+mientras que los homicidios no relacionados con el crimen organizado no mostraron cambios
+significativos en el mismo periodo (Fuente: IEP, México Peace Index 2025).
+
+1.2 Las tres entidades federativas con mayor número de homicidios dolosos
+
+Según las Estadísticas de Defunciones Registradas del INEGI para el año 2023:
+
+— PRIMER LUGAR: Guanajuato, con 3,862 homicidios registrados.
+— SEGUNDO LUGAR: Estado de México, con 2,942 homicidios registrados.
+— TERCER LUGAR: Baja California, con 2,653 homicidios registrados.
+
+En cuarta y quinta posición se encontraron Chihuahua (2,517) y Michoacán (1,886),
+respectivamente (Fuente: INEGI EDR 2023, publicado el 8 de noviembre de 2024).
+
+En el extremo opuesto, los estados con menor número de homicidios en 2023 fueron
+Baja California Sur (50), Yucatán (52), Durango (92), Aguascalientes (114) y Campeche
+(115) (Fuente: INEGI EDR 2023).
+
+Para el año 2024, el estado de Sinaloa experimentó un incremento extraordinario de 61.8%
+en la tasa de homicidios dolosos respecto a 2023, vinculado directamente a la guerra
+interna del Cártel de Sinaloa desatada a partir de la detención del líder Ismael "El Mayo"
+Zambada en julio de 2024. Este conflicto se tradujo también en que la percepción de
+inseguridad en Culiacán creciera 108.3% en el mismo periodo (Fuente: Integralia /
+ENSU-INEGI, febrero 2025).
+
+1.3 Tasas de homicidio por entidad federativa (perspectiva de tasa, no volumen)
+
+Las entidades con mayores tasas de homicidio por cada 100,000 habitantes en 2024,
+según el SESNSP, incluyen a Colima, que ha sido consistentemente señalada como el
+estado más violento del país en términos relativos a su población. Siete entidades
+acumulan un balance muy negativo en sus indicadores: Baja California Sur, Chihuahua,
+Guanajuato, Nuevo León, Quintana Roo, San Luis Potosí y Sonora (Fuente: México
+Evalúa, Reporte Anual de Incidencia Delictiva, febrero 2025).
+
+1.4 Diferencias metodológicas entre fuentes oficiales
+
+Es importante distinguir entre dos fuentes principales de datos sobre homicidios en México:
+
+a) Las Estadísticas de Defunciones Registradas (EDR) del INEGI, que obtienen información
+de registros administrativos de Oficialías del Registro Civil, Servicios Médicos Forenses
+y Agencias del Ministerio Público. Estas cifras se publican con aproximadamente un año
+de rezago.
+
+b) Las carpetas de investigación del Secretariado Ejecutivo del Sistema Nacional de
+Seguridad Pública (SESNSP), que contabilizan únicamente las denuncias iniciadas por
+las fiscalías estatales, y se publican mensualmente. Ambas fuentes pueden presentar
+diferencias numéricas debido a esta distinción metodológica.
+
+Adicionalmente, el INEGI reconoce la posibilidad de subregistro. En 2024, el 50% de las
+defunciones violentas o accidentales con intencionalidad no determinada ocurrieron en
+Baja California (498 casos), Jalisco (255), Nuevo León (138), Veracruz (107) y
+Chihuahua (92), lo que sugiere que el fenómeno real podría ser aún más amplio
+(Fuente: MUCD, Atlas de Homicidios de México 2023).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 2 — EXTORSIÓN: EVOLUCIÓN Y SECTORES MÁS AFECTADOS
+═══════════════════════════════════════════════════════════════
+
+2.1 Magnitud y tendencia histórica de la extorsión
+
+La extorsión es uno de los delitos con mayor impacto en México y muestra una tendencia
+de crecimiento sostenido en las últimas décadas. Según datos de COPARMEX, la extorsión
+en México creció 61.2% en la última década (Fuente: COPARMEX, Monitor de Seguridad,
+julio 2025).
+
+En 2023, la Encuesta Nacional de Victimización de Empresas (ENVE) del INEGI estimó
+que se cometieron 747,000 delitos de extorsión contra unidades económicas. De estos,
+113,000 correspondieron a extorsión en la calle, en el establecimiento o cobro de piso.
+En 18 estados, la extorsión fue el delito más frecuente contra las unidades económicas.
+Las empresas realizaron un gasto de 67,200 millones de pesos en medidas preventivas
+durante ese año (Fuente: INEGI, ENVE 2024, diciembre 2024).
+
+Según datos citados por la Comisión de Justicia del Congreso, en 2023 se cometieron
+4.9 millones de delitos de extorsión en total (incluyendo extorsiones contra particulares).
+Este volumen generó pérdidas anuales por 124,000 millones de pesos para empresas y
+comercios (Fuente: La Jornada / iniciativa legislativa Congreso, agosto 2025).
+
+En el primer semestre de 2025, el SESNSP registró 5,887 víctimas de extorsión, la cifra
+más alta en registros oficiales. Esto representa un incremento de 6.9% respecto al mismo
+periodo del año anterior y convierte a 2025 en el año con el nivel más alto de extorsión
+desde que hay registro formal. En un periodo de diez años, la extorsión registrada creció
+83% (Fuente: COPARMEX, Monitor de Seguridad, octubre 2025).
+
+En 2023 y 2024 se observó una reducción moderada en las tasas de extorsión. No obstante,
+entre 2023 y 2024, la tasa a nivel nacional solo se redujo 0.2%, y la tasa aumentó en
+15 entidades federativas durante ese periodo. Para 2025, el informe disponible indica un
+aumento interanual de 4.5% (Fuente: Integralia, Reporte Anual Delitos 2024).
+
+2.2 Subregistro: la "cifra negra" de la extorsión
+
+Un aspecto crítico de la extorsión es su altísimo índice de no denuncia. Entre el 96% y
+el 97% de los eventos de extorsión no se denuncian o no derivan en una carpeta de
+investigación. Esto significa que las carpetas registradas por el SESNSP reflejan apenas
+una fracción del problema real. Los factores que explican esta brecha incluyen: el miedo
+a represalias, la desconfianza en las autoridades, experiencias previas negativas con
+instituciones de seguridad y la percepción de que denunciar no genera resultados
+(Fuente: Chanboox / análisis de extorsión 2025).
+
+Esta problemática del subregistro se replica en la delincuencia en general. La ENVIPE 2024
+del INEGI estimó que en 2023 ocurrieron 31.3 millones de delitos en México, de los cuales
+solo el 10.4% se denunció. El Ministerio Público abrió una carpeta de investigación en el
+68.0% de los casos denunciados. El resultado es que el 92.9% de todos los delitos no se
+investigó. Para 2024, de los 33.5 millones de delitos estimados, solo se denunció el 9.6%
+y la cifra oculta ascendió al 93.2% (Fuentes: INEGI, ENVIPE 2024; INEGI, ENVIPE 2025).
+
+2.3 Distribución territorial de la extorsión
+
+La extorsión presenta marcadas diferencias entre entidades federativas. En 2024, los estados
+con mayores tasas de extorsión por cada 100,000 habitantes fueron:
+— Estado de México: 19.52 por cada 100,000 habitantes
+— Colima: 18.10 por cada 100,000 habitantes
+— Guanajuato: 15.85 por cada 100,000 habitantes
+— Morelos: 15.75 por cada 100,000 habitantes
+— Nuevo León: 13.73 por cada 100,000 habitantes
+(Fuente: SESNSP / Iniciativa de Ley General contra la Extorsión, Congreso de la Unión,
+octubre 2025)
+
+A nivel geográfico, también son preocupantes algunos municipios específicos. Por ejemplo,
+en el Estado de México, el municipio de Coacalco encabeza la lista con 511.1 carpetas de
+investigación por extorsión por cada 100,000 habitantes (Fuente: COPARMEX, octubre 2025).
+
+2.4 Sectores económicos más afectados por la extorsión
+
+Según la Encuesta Nacional de Victimización de Empresas (ENVE 2024) del INEGI, que
+mide la victimización durante 2023:
+
+— El sector Comercio fue el más golpeado: el 31.5% de sus unidades económicas fue
+  víctima de algún delito. En 18 estados la extorsión fue el delito más frecuente
+  contra este sector.
+— El sector Servicios registró una prevalencia delictiva de 24.2% de sus unidades.
+— El sector de Industrias Manufactureras reportó un 21.6% de sus unidades victimizadas.
+
+Por tamaño de empresa, las medianas resultaron las más afectadas (49.0% victimizadas),
+seguidas de las grandes (47.3%), las pequeñas (40.7%) y las micro (26.3%). Sin embargo,
+las unidades grandes registraron mayor frecuencia de victimización: 4.1 delitos por unidad
+económica victimizada, frente a 3.0 en medianas y pequeñas, y 2.2 en micro (Fuente: INEGI,
+ENVE 2024, diciembre 2024).
+
+En el primer semestre de 2025, el robo a negocios generó 34,012 carpetas de investigación,
+una reducción de 9.7% frente al mismo lapso de 2024. Sin embargo, el 41.7% de estos robos
+se cometió con violencia (Fuente: COPARMEX, octubre 2025).
+
+2.5 Impacto de las armas de fuego en la extorsión
+
+El papel de las armas de fuego en los eventos de extorsión es significativo. En extorsiones
+presenciales analizadas, el 40% involucró armas de fuego. Las víctimas amenazadas con
+arma de fuego fueron más propensas a entregar lo solicitado y menos propensas a denunciar.
+La presencia de armas se asocia con pérdidas monetarias mayores y efectos psicológicos
+como miedo persistente, insomnio y síntomas de estrés postraumático (Fuente: análisis
+citado en Chanboox, abril 2026).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 3 — IMPACTO ECONÓMICO DE LA VIOLENCIA
+═══════════════════════════════════════════════════════════════
+
+3.1 Costo macroeconómico total
+
+El impacto económico de la violencia en México en 2024 fue estimado en 4.5 billones de
+pesos (aproximadamente 245,000 millones de dólares), equivalente al 18% del Producto
+Interno Bruto (PIB) nacional, según el Índice de Paz México 2025 del Instituto para la
+Economía y la Paz (IEP). Esto significa que la violencia le cuesta a cada ciudadano
+mexicano aproximadamente 33,905 pesos al año, cifra superior al salario mensual promedio
+de un trabajador en México (Fuente: IEP, México Peace Index 2025 / El Financiero).
+
+Este costo representa una reducción respecto al año previo, cuando el IEP reportó un
+impacto de 4.9 billones de pesos, equivalente al 19.8% del PIB en 2023. El país registró
+una ligera mejora de 0.7% en sus niveles de paz durante 2024, siendo el quinto año
+consecutivo de progreso, aunque el Director del IEP en México, Carlos Juárez Cruz, señaló
+que esta mejora "es menos del 1%, en realidad no significa mucho, es una mejora marginal"
+(Fuente: IEP / Infobae, mayo 2025).
+
+El costo total de la violencia en 2024 fue seis veces mayor que el gasto público en salud
+y cinco veces superior al presupuesto destinado a educación en el mismo año. Los homicidios
+representaron el 38% de este costo, equivalentes a 1.7 billones de pesos (85,000 millones
+de dólares). Los crímenes violentos —robos, asaltos y agresiones sexuales— representaron
+el 33%, con un impacto de 1.5 billones de pesos (75,000 millones de dólares) (Fuente: IEP /
+Proceso, mayo 2025).
+
+Pese a la leve mejora de 2024, México es significativamente menos pacífico que en 2015,
+con un deterioro acumulado del 13.4% en sus indicadores de seguridad en los últimos
+diez años (Fuente: IEP, México Peace Index 2025).
+
+3.2 Costo del delito para los hogares
+
+La ENVIPE 2025 del INEGI estimó que el costo total del delito y la inseguridad para los
+hogares mexicanos en 2024 ascendió a 269.6 mil millones de pesos, equivalente al 1.07%
+del PIB. El promedio del costo por persona víctima del delito fue de 6,226 pesos.
+
+El costo se desglosa de la siguiente manera:
+— Pérdidas por victimización: 62% del total (91.8 mil millones de pesos)
+— Gasto en medidas de seguridad y protección de familias y empresas: 34%
+  (177.8 mil millones de pesos)
+— Pérdidas económicas por daños en salud de víctimas: 4%
+  (10.7 mil millones de pesos)
+(Fuente: INEGI, ENVIPE 2025 / El Financiero, septiembre 2025)
+
+3.3 Costo del delito para las empresas
+
+La delincuencia contra las empresas generó un costo agregado de 124,300 millones de
+pesos constantes en 2023, equivalente al 0.51% del PIB, según la Encuesta Nacional de
+Victimización de Empresas (ENVE 2024) del INEGI (Fuente: Chanboox, abril 2026).
+
+3.4 Gasto en seguridad pública
+
+El gasto en seguridad pública y en el sistema de justicia penal en 2024 fue equivalente
+al 0.7% del PIB de México, menos de la mitad del promedio de América Latina. El reporte
+del IEP identificó que "la corrupción y la ineficiencia administrativa son factores clave
+que impulsan la violencia en México, ya que contribuyen a la impunidad y limitan los
+recursos disponibles para combatir el crimen" (Fuente: IEP / Proceso, mayo 2025).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 4 — CRIMEN ORGANIZADO Y ESTRUCTURA TERRITORIAL
+═══════════════════════════════════════════════════════════════
+
+4.1 Configuración del crimen organizado en México
+
+El crimen organizado en México se ha constituido como un sistema de poder en sí mismo,
+que atraviesa la economía y la política a lo largo de múltiples regiones. Las expresiones
+de violencia criminal que afectan diversas zonas del país son producto de combinaciones
+de factores políticos, económicos y sociales profundamente arraigados, entre los que
+destacan: la corrupción política, la falta de equipamiento y capacidades técnicas de
+policías y fiscalías, y la insuficiencia de oportunidades formales para la población
+(Fuente: México Evalúa / Nexos, enero 2025).
+
+El proceso electoral 2023-2024 fue el más violento del que se tiene registro en México,
+con 889 víctimas de violencia política. De estas, el 78.4% se concentraron en el nivel
+municipal, lo que revela que los gobiernos municipales son más vulnerables a los esfuerzos
+del crimen organizado para operar con impunidad y controlar mercados ilícitos en esos
+territorios (Fuente: Integralia, Reporte Anual Delitos 2024, febrero 2025).
+
+4.2 Distribución territorial de la violencia criminal
+
+Un análisis de los puntos calientes de violencia en México identificó 168 territorios con
+alta concentración de crimen, con un Índice de Moran de 0.43 (estadísticamente significativo).
+Se distinguen tres grandes agrupaciones de violencia criminal no letal:
+— Una al noroeste, conformada principalmente por municipios de Baja California y Sonora.
+— Una al noreste, compuesta por municipios de Nuevo León y Coahuila.
+— Una en la región central del país, que inicia al sur en Puebla, atraviesa el Valle de
+  México y desemboca en San Luis Potosí y Aguascalientes.
+(Fuente: México Evalúa / Nexos, enero 2025)
+
+En numerosos territorios, la presencia del Estado se ha debilitado hasta el punto de que
+las propias fuerzas de seguridad deben negociar sus recorridos para no entrar en conflicto
+con grupos armados. Este proceso ha sido caracterizado por académicos como una "gobernabilidad
+criminal crónica", en la que cohabitan múltiples fuerzas armadas legales e ilegales
+(Fuente: Scielo / Revista Mexicana de Sociología, 2024).
+
+4.3 El caso de Sinaloa como ejemplo de crisis criminal aguda
+
+El estado de Sinaloa vivió en 2024 una escalada sin precedente de violencia. La detención
+del líder del Cártel de Sinaloa, Ismael "El Mayo" Zambada, en julio de 2024, desató una
+guerra interna entre facciones del cártel. Como resultado, la tasa de homicidios dolosos
+en Sinaloa aumentó 61.8% entre 2023 y 2024. La percepción de inseguridad en Culiacán
+creció 108.3% en el mismo periodo. La Coparmex local estimó, en diciembre de 2024,
+pérdidas económicas por más de 7,000 millones de pesos como consecuencia directa de
+este conflicto (Fuentes: ENSU-INEGI; COPARMEX Sinaloa; Integralia 2025).
+
+4.4 Economía criminal: el fentanilo como motor de violencia
+
+El fentanilo —un opioide sintético altamente potente— ha sido uno de los principales
+motores de la violencia criminal en México. Este narcótico se vende por hasta 2,700 veces
+el costo de sus materias primas, generando márgenes de ganancia extraordinarios para
+los grupos criminales que controlan su producción y tráfico. En 2024, el fentanilo causó
+más de 79,000 muertes en Estados Unidos (según cifras preliminares de los CDC), lo que
+mantiene la demanda y, con ella, la disputa violenta por el control de las rutas de
+tráfico (Fuente: Insight Crime, mayo 2025).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 5 — DESPLAZAMIENTO FORZADO Y PERSONAS DESAPARECIDAS
+═══════════════════════════════════════════════════════════════
+
+5.1 Desplazamiento forzado interno
+
+El desplazamiento forzado interno vinculado a la violencia del crimen organizado alcanzó
+cifras alarmantes en 2024. El Programa de Derechos Humanos de la Universidad Iberoamericana
+documentó que al menos 28,900 personas fueron desplazadas internamente en 2024, lo que
+representa un aumento del 129% respecto a las 12,623 personas desplazadas en 2023.
+El 79% de los desplazamientos estaban relacionados con la violencia, mientras que el
+20% respondía a causas sociales o desastres naturales (Fuente: PDH Iberoamericana /
+Amnistía Internacional, 2024).
+
+Las entidades con mayor número de personas desplazadas en 2024 fueron:
+— Chiapas: 17,860 personas desplazadas en 20 eventos masivos, principalmente en
+  comunidades fronterizas con Guatemala, donde la disputa territorial por rutas del
+  narcotráfico generó una mezcla de conflicto social e intervención criminal.
+— Sinaloa: 4,480 personas desplazadas.
+— Michoacán: desplazamientos intensificados en el segundo semestre del año.
+(Fuente: PDH Iberoamericana, junio 2025)
+
+5.2 Personas desaparecidas y no localizadas
+
+El Registro Nacional de Personas Desaparecidas y No Localizadas (RNPDNO), a cargo
+de la Comisión Nacional de Búsqueda de Personas, reportó al 12 de noviembre de 2024
+un total acumulado de 117,906 personas desaparecidas y no localizadas desde que
+comenzó el registro sistemático (Fuente: MUCD, Atlas de Homicidios 2023).
+
+En 2024, se reportaron 13,117 nuevas personas desaparecidas, un incremento del 36%
+respecto a 2023, según datos de la Comisión Nacional de Búsqueda. Esta cifra constituyó
+el nivel más alto de desapariciones registradas en un año (Fuente: Insight Crime / IEP,
+mayo 2025).
+
+UNICEF México señala que hasta 2024 el Registro Nacional de Personas Desaparecidas
+contabilizó 16,838 niñas, niños y adolescentes desaparecidos y no localizados, de los
+cuales 2,785 casos ocurrieron en los últimos 12 meses del periodo reportado. El 51.62%
+de los menores desaparecidos son mujeres y el 48.18% son hombres. Las edades de mayor
+riesgo son de 15 a 17 años en niños (51.8%) y de 14 a 17 años en niñas (62.6%).
+Las desapariciones de menores pueden estar vinculadas con reclutamiento por grupos
+criminales, trata y explotación sexual (Fuente: UNICEF México, 2024).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 6 — VIOLENCIA DE GÉNERO: FEMINICIDIOS Y VIOLENCIA FAMILIAR
+═══════════════════════════════════════════════════════════════
+
+6.1 Feminicidios
+
+En 2025, las fiscalías iniciaron 2,589 expedientes de investigación sobre asesinatos de
+mujeres, de los cuales 672 estaban tipificados como posibles feminicidios. Estas cifras
+representaron una disminución del 24.1% y 21.2%, respectivamente, en comparación con
+2024 (Fuente: Amnistía Internacional México, abril 2026).
+
+En 2024, las autoridades registraron 3,637 casos de mujeres desaparecidas. La violencia
+de género presenta una continuidad que académicos describen como un "continuum de
+violencias feminicidas", en el que la violencia estructural y simbólica precede y rodea
+los casos de feminicidio (Fuente: Amnistía Internacional México; investigación cualitativa
+NCBI, 2024).
+
+6.2 Violencia familiar
+
+Los casos de violencia familiar han registrado un crecimiento sostenido. Según el SESNSP,
+los casos aumentaron desde 180,185 en 2018 hasta 259,204 en 2024. El año más violento
+en este indicador fue 2023, con 284,203 casos registrados. El pico mensual se registró en
+mayo de 2024 con 27,499 casos. Los delitos de violencia de género en todas sus modalidades
+pasaron de 2,255 casos en 2018 a 6,117 en 2024, un incremento de más del doble al término
+del sexenio (Fuente: SESNSP / Recyt-Fecyt, análisis balance género 2018-2024).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 7 — PERCEPCIÓN DE INSEGURIDAD Y COMPORTAMIENTO CIUDADANO
+═══════════════════════════════════════════════════════════════
+
+7.1 Victimización y prevalencia delictiva
+
+La ENVIPE 2025 del INEGI, que mide la victimización durante 2024, estimó que en 11.4
+millones de hogares (29.0% del total del país), al menos uno de sus integrantes fue víctima
+del delito. La cifra es superior a la de 2023. En total, 23.1 millones de personas de 18 años
+y más fueron víctimas de delito en 2024, equivalente a 24,135 víctimas por cada 100,000
+habitantes (Fuente: INEGI, ENVIPE 2025, septiembre 2025).
+
+En 2023 la prevalencia delictiva fue de 23,323 víctimas por cada 100,000 habitantes, cifra
+superior a 2022. Los delitos más frecuentes fueron fraude, robo o asalto en calle o transporte
+público, y extorsión (Fuente: INEGI, ENVIPE 2024).
+
+7.2 Percepción de inseguridad
+
+Entre marzo y abril de 2025, el 64.2% de la población de 18 años y más consideró la
+inseguridad como el problema más grave del país, por encima de la salud (34.5%) y el
+aumento de precios (34% aproximado). Solo el 40.3% de la población se sintió segura al
+caminar sin compañía por la noche en los alrededores de su vivienda. En mujeres, este
+porcentaje fue aún menor: 32.3% (Fuente: INEGI, ENVIPE 2025).
+
+Las entidades con mayor percepción de inseguridad según la ENVIPE 2024 fueron
+Guanajuato (87.5%) y Zacatecas (87.4%), en contraste con Baja California Sur y
+Yucatán, donde la percepción de inseguridad resultó considerablemente menor
+(Fuente: INEGI, ENVIPE 2024 / Líder Empresarial, octubre 2024).
+
+7.3 Cambio de hábitos por temor a la delincuencia
+
+La violencia genera modificaciones profundas en el comportamiento cotidiano de la
+población. La ENVIPE documenta que la inseguridad lleva a los hogares a adoptar medidas
+preventivas que representaron el 34% del costo total del delito (177.8 mil millones de
+pesos en 2024), incluyendo la instalación de cerraduras, cámaras de seguridad, cambio
+de hábitos de movilidad y reducción de actividades sociales y económicas nocturnas
+(Fuente: INEGI, ENVIPE 2025).
+
+═══════════════════════════════════════════════════════════════
+SECCIÓN 8 — NOTA METODOLÓGICA PARA EL TUTOR ANALÍTICO
+═══════════════════════════════════════════════════════════════
+
+Este corpus documental cubre las siguientes dimensiones temáticas:
+— Homicidios dolosos (volumen, tasa, distribución territorial, tendencia histórica)
+— Extorsión (evolución, sectores afectados, subregistro, geografía)
+— Impacto económico de la violencia (nivel macro y micro)
+— Crimen organizado (estructura, territorios, economía criminal)
+— Desplazamiento forzado y personas desaparecidas
+— Violencia de género (feminicidios, violencia familiar)
+— Percepción de inseguridad y victimización (ENVIPE)
+
+Limitación explícita del corpus: Este documento NO contiene información sobre el sistema
+educativo mexicano, tasas de deserción escolar, rendimiento académico, ausentismo
+estudiantil, ni indicadores de cobertura educativa. Cualquier pregunta que relacione la
+violencia documentada con el abandono escolar o la deserción educativa NO puede ser
+respondida con base en este corpus, dado que los datos requeridos no forman parte de los
+documentos recopilados.
+
+Fuentes primarias consultadas:
+- INEGI: EDR 2023 y 2024, ENVIPE 2024 y 2025, ENVE 2024
+- SESNSP: Incidencia Delictiva del Fuero Común 2024
+- Instituto para la Economía y la Paz: México Peace Index 2025
+- México Evalúa: Reporte Anual de Incidencia Delictiva 2024; VAP Anual 2025
+- Integralia Consultores: Reporte Anual Delitos 2024
+- COPARMEX: Monitor de Seguridad 2024-2025
+- Universidad Iberoamericana (PDH): Informe de Desplazamiento Forzado 2024
+- Comisión Nacional de Búsqueda de Personas: RNPDNO, noviembre 2024
+- Amnistía Internacional: Informe México 2024-2025
+- UNICEF México: Informe Violencia Armada 2024
+- MUCD (México Unido contra la Delincuencia): Atlas de Homicidios 2023
+- Congreso de la Unión: Iniciativa Ley General contra la Extorsión, octubre 2025
+- Insight Crime: análisis de violencia y economía criminal, 2025
