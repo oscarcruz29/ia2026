@@ -6,3 +6,9 @@ ollama pull llama3.2:3b
 
 comando para correr rag.py:
 python rag.py --docs ./docs --question "¿Qué dicen los reportes sobre los índices de violencia?"
+
+python fineNrag.py --docs ./docs --question "¿Cuáles son las tres entidades federativas con mayor índice de homicidios dolosos según el corpus?" --lora-path ./tutor_analitico_lora
+
+python fineNrag.py --docs ./docs --question "¿Cómo ha evolucionado la tasa de extorsión y qué sectores son los más afectados?" --lora-path ./tutor_analitico_lora
+
+python fineNrag.py --docs ./docs --question "¿Qué impacto tiene la violencia documentada sobre la tasa de deserción escolar?" --lora-path ./tutor_analitico_lora
