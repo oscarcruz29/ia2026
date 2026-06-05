@@ -52,7 +52,6 @@ Se usa un split 80/20 con estratificación para evaluar el *accuracy* en test.
 - Los datos se capturan **solo en modo manual** mientras la bala está activa.
 - Para evitar el sesgo hacia la clase `NADA`, se aplica un **submuestreo aleatorio** (retención del ~38 % de muestras NADA).
 - Se requieren mínimo **80 muestras** para permitir el entrenamiento.
-- Las clases con menos del 10 % de representación se eliminan antes de entrenar, salvo que sean las únicas clases de acción disponibles.
 
 ---
 
