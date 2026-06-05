@@ -1,8 +1,8 @@
-# Juego con IA: Bala + Salto + Agachar + Random Forest
+# Juego con IA: Bala + Salto + Agachar 
 
 ## Descripción general
 
-Juego 2D desarrollado en **Python** con **Pygame** que combina mecánicas clásicas de acción lateral con un sistema de inteligencia artificial basado en **Random Forest** (scikit-learn). El jugador controla un mono que debe esquivar balas disparadas por una nave enemiga, ya sea saltando o agachándose. El objetivo principal es recolectar datos de juego manual para entrenar un modelo de clasificación que luego controle al personaje de forma autónoma.
+Juego 2D desarrollado en **Python** con **Pygame** que combina mecánicas clásicas de acción lateral con un sistema de inteligencia artificial. El jugador controla un mono que debe esquivar balas disparadas por una nave enemiga, ya sea saltando o agachándose. El objetivo principal es recolectar datos de juego manual para entrenar un modelo de clasificación que luego controle al personaje de forma autónoma.
 
 ---
 
